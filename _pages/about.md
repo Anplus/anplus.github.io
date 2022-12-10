@@ -2,24 +2,26 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: A postdoctoral researcher on wireless systems.
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>PQ504</p>
+    <p> <a href='https://www.polyu.edu.hk/comp/'>The Hong Kong Polytechnic University</a> </p>
+    <p>Hung Hom, Hong Kong</p>
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am currently a postdoctoral researcher at The Hong Kong Polytechnic University, advised by Dr. Lei Yang. My research interests are broadly including wireless systems and networking, mobile computing, wireless sensing, and wireless security and privacy. Currently, I focus on hardware/software co-design for acoustic backscatter and sensing system, AI-driven wireless channel prediction, and wireless localization and sensing. I am the recipient of the ACM China Council SIGBED Chapter Doctoral Dissertation Award 2022, IEEE SECON 2022 best paper, and ACM MobiCom Best Demo Runner-up in 2018 and 2022. My works have been published in top conferences and journals such as MobiCom, MobiSys, SIGCOMM, S&P, TON and TMC.
+
+<!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
 Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them. -->
