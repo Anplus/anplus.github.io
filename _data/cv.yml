@@ -2,25 +2,19 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
+      value: Zhenlin An
     - name: Languages
-      value: English, German
+      value: Chinese, English
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: PhD in Computer Science
+      institution: The Hong Kong Polytechnic University, Hong Kong
+      year: 2021.10
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
+        - Advised by Lei Yang and Jiannong Cao
+        - On Cross-Technology Mutualism in the Internet of Things\: Communication and Localization
     - title: Federal teaching diploma
       institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
       year: 1900
