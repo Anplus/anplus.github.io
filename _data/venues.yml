@@ -1,27 +1,3 @@
-"MobiCom":
-  url: https://www.sigmobile.org/mobicom/
-
-"SIGCOMM":
-  url: https://sigcomm.org/events/sigcomm-conference
-
-"MobiSys":
-  url: https://www.sigmobile.org/mobisys/
-
-"INFOCOM":
-  url: https://ieeexplore.ieee.org/xpl/conhome/1000359/all-proceedings
-
-"IEEE SP":
-  url: https://www.ieee-security.org/TC/SP2023/
-
-"IEEE/ACM ToN":
-  url: https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=90
-
-"IEEE TMC":
-  url: https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=7755
-
-"ACM TOSN":
-  url: https://dl.acm.org/journal/tosn
-
 "AJP":
   url: https://aapt.scitation.org/journal/ajp
   color: "#00369f"
