@@ -7,6 +7,8 @@ nav: true
 nav_order: 3
 ---
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
-
-Organize your courses by years, topics, or universities, however you like!
+- Teaching Assistant for Web Application Design and Development (COMP 3421), 2021
+- Teaching Assistant for Internet Computing and Applications (COMP 5322), 2020
+- Teaching Assistant for Crowdfunding and E-finance (COMP 4141), 2019
+- Teaching Assistant for Enterprise Web and Internet Computing for Managers (COMP 5321), 2018
+- Teaching Assistant for Mobile Computing (COMP 4342), 2017
