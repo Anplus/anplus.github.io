@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Two papers were accepted by MobiCom 2023.
-date: 2015-11-18 16:11:00-0400
+date: 2022-11-18 16:11:00-0400
 inline: false
 ---
 
