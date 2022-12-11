@@ -6,6 +6,18 @@
     - name: Languages
       value: Chinese, English
 
+- title: Academic Interests
+  type: nested_list
+  contents:
+    - title: Wireless Localization and Sensing
+      items: 
+        - AI-driven wireless channel estimation and localization algorithm
+        - Multi-modal Sensing &#58 RF, acoustic, image
+    - title: Novel Backscatter Communication and Sensing System
+      items:
+        - Acoustic Backscatter System for RF-disable environment
+        - RF backscatter and wireless charging
+        
 - title: Education
   type: time_table
   contents:
@@ -34,7 +46,7 @@
       institution: The Hong Kong Polytechnic University
       year: 2016.11-2017.3
       description:
-        - Supervisor &#58 Dr. Chengan Guo
+        - Supervisor &#58 Dr. Lei Yang
 
 - title: Honors and Awards
   type: time_table
@@ -50,18 +62,9 @@
       items: 
         - Best-In-Session Presentation Award, IEEE INFOCOM
         - Student Travel Grant, IEEE INFOCOM
-
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Wireless Localization and Sensing
+    - year: 2018
       items: 
-        - AI-driven wireless channel estimation and localization algorithm
-        - Multi-modal Sensing: RF, acoustic, image
-    - title: Novel Backscatter Communication and Sensing System
-      items:
-        - Acoustic Backscatter System for RF-disable environment
-        - RF backscatter and wireless charging
+        - Best Demo Award Runner-up (2/27), ACM MobiCom
 
 - title: Other Interests
   type: list
