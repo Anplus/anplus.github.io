@@ -36,9 +36,14 @@
 - title: Experience
   type: time_table
   contents:
+   - title: Postdoctoral Research Associate 
+      institution: Princeton University
+      year: 2023.12 - present
+      description:
+        - Supported by PolyU Matching Fund
     - title: Postdoctoral Fellow 
       institution: The Hong Kong Polytechnic University
-      year: 2021.11 - Present
+      year: 2021.11 - 2023.11
       description:
         - Supported by PolyU Matching Fund
 
@@ -51,6 +56,11 @@
 - title: Honors and Awards
   type: time_table
   contents:
+    - year: 2023
+      items: 
+        - Bset Paper Award Runner-up, ACM MobiCom
+        - Bset Paper Award, IEEE SECON
+        - Graduate Award, ACM MobiCom
     - year: 2022
       items: 
         - ACM SIGBED China Doctoral Dissertation Award 
