@@ -9,16 +9,13 @@ profile:
   image: prof_pic2.jpg
   image_circular: false # crops the image to make it circular
   address: >
-    <p>35 Olden Street</p>
-    <p> <a href='https://www.cs.princeton.edu/'>Princeton University</a> </p>
-    <p>Princeton, New Jersey, USA</p>
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am currently a postdoctoral researcher at Princeton University, advised by Prof. Kyle Jamieson and Dr. Shangguan Longfei. Before that, I was a postdoc at the Hong Kong Polytechnic University, advised by Dr. Lei Yang. My research interests are broadly including wireless systems and networking, mobile computing, wireless sensing, and wireless security and privacy. Currently, I focus on hardware/software co-design for acoustic backscatter and sensing systems, AI-driven wireless channel prediction, and wireless localization and sensing.
+I am currently a postdoctoral researcher. Before that, I was a postdoc at the Hong Kong Polytechnic University, advised by Dr. Lei Yang. My research interests are broadly including wireless systems and networking, mobile computing, wireless sensing, and wireless security and privacy. Currently, I focus on hardware/software co-design for acoustic backscatter and sensing systems, AI-driven wireless channel prediction, and wireless localization and sensing.
 
 I am the recipient of the ACM China Council SIGBED Chapter Doctoral Dissertation Award 2022, IEEE SECON 2020 and 2023 Best Paper, and ACM MobiCom Best Demo Runner-up in 2018 and 2022. My works have been published in top conferences and journals such as MobiCom, MobiSys, SIGCOMM, NSDI, INFOCOM, S&P, TON, and TMC.
 
