@@ -15,7 +15,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am currently a postdoctoral researcher. I was a postdoc at the Hong Kong Polytechnic University, advised by Dr. Lei Yang. My research interests are broadly including wireless systems and networking, mobile computing, wireless sensing, and wireless security and privacy. Currently, I focus on hardware/software co-design for acoustic backscatter and sensing systems, AI-driven wireless channel prediction, and wireless localization and sensing.
+I am currently a postdoctoral researcher at University of Pittsburgh, advised by Dr. Longfei Shangguan and Prof. Kyle Jamieson. Prior that, I was a postdoc at Princeton University and Hong Kong Polytechnic University. My research interests are broadly including wireless systems and networking, mobile computing, wireless sensing, and wireless security and privacy. Currently, I focus on hardware/software co-design for acoustic backscatter and sensing systems, AI-driven wireless channel prediction, and wireless localization and sensing.
 
 I am the recipient of the ACM China Council SIGBED Chapter Doctoral Dissertation Award 2022, IEEE SECON 2020 and 2023 Best Paper, and ACM MobiCom Best Demo Runner-up in 2018 and 2022. My works have been published in top conferences and journals such as MobiCom, MobiSys, SIGCOMM, NSDI, INFOCOM, S&P, TON, and TMC.
 
