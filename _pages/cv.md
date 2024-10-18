@@ -4,5 +4,5 @@ permalink: /cv/
 title: cv
 nav: true
 nav_order: 2
-cv_pdf: cv_work_zhenlin_2022_12.pdf
+cv_pdf: cv-work-zhenlin-2024.9.pdf
 ---
