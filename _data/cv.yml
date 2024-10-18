@@ -9,7 +9,7 @@
 - title: Academic Interests
   type: nested_list
   contents:
-    - title: Wireless Localization and Sensing
+    - title: AI-driven Wireless Digital Twin
       items: 
         - AI-driven wireless channel estimation and localization algorithm
         - Multi-modal Sensing &#58 RF, acoustic, image
@@ -32,21 +32,6 @@
       year: 2017 July
       description:
         - Supervisor &#58 Prof. Chengan Guo
-
-- title: Experience
-  type: time_table
-  contents:
-    - title: Postdoctoral Fellow 
-      institution: The Hong Kong Polytechnic University
-      year: 2021.11 - Present
-      description:
-        - Supported by PolyU Matching Fund
-
-    - title: Research Intern
-      institution: The Hong Kong Polytechnic University
-      year: 2016.11-2017.3
-      description:
-        - Supervisor &#58 Dr. Lei Yang
 
 - title: Honors and Awards
   type: time_table
