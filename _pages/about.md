@@ -19,6 +19,8 @@ I am currently a postdoctoral researcher at University of Pittsburgh, advised by
 
 I am the recipient of the ACM China Council SIGBED Chapter Doctoral Dissertation Award 2022, IEEE SECON 2020 and 2023 Best Paper, and ACM MobiCom Best Demo Runner-up in 2018 and 2022. My works have been published in top conferences and journals such as MobiCom, MobiSys, SIGCOMM, NSDI, INFOCOM, S&P, TON, and TMC.
 
+Feel free to explore my blog on GitBook, where I share detailed insights into my research, engineering projects, and reflections. Visit [here](https://anplus.gitbook.io/anplus).
+
 <p><strong style="color:red;">I am currently on the job market, actively seeking positions as an Assistant Professor or Research Scientist.</strong></p>
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
