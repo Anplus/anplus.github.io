@@ -6,7 +6,7 @@ subtitle: A postdoctoral researcher on wireless systems.
 
 profile:
   align: right
-  image: prof_pic2.jpg
+  image: prof_pic3.jpg
   image_circular: false # crops the image to make it circular
   address: >
 
