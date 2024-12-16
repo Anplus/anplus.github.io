@@ -15,7 +15,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am currently a postdoctoral researcher at University of Pittsburgh and Princeton University, advised by Dr. Longfei Shangguan and Prof. Kyle Jamieson. Prior that, I was a postdoc at Hong Kong Polytechnic University. My research centers on wireless systems and networking (NextG, battery-free sensor networks, IoT security), and mobile and ubiquitous computing (localization, multimodal sensing for robotics, and immersive virtual/augmented reality applications). Currently, I focus on AI-driven wireless digital twin for radio world model/scene understanding, channel prediction, wireless localization, and sensing.
+I am currently a postdoctoral researcher at University of Pittsburgh and Princeton University, advised by Dr. Longfei Shangguan and Prof. Kyle Jamieson. Prior that, I was a postdoc at Hong Kong Polytechnic University. My research centers on wireless systems and networking (NextG, battery-free sensor networks, IoT security), and mobile and ubiquitous computing (localization, multimodal sensing for robotics, and immersive virtual/augmented reality applications). *Currently, I focus on AI-driven wireless digital twin for radio world model/scene understanding, and its application for channel prediction, localization, sensing, and interaction for robots.*
 
 I am the recipient of the ACM China Council SIGBED Chapter Doctoral Dissertation Award 2022, IEEE SECON 2020 and 2023 Best Paper, and ACM MobiCom Best Demo Runner-up in 2018 and 2022. My works have been published in top conferences and journals such as MobiCom, MobiSys, SIGCOMM, NSDI, INFOCOM, S&P, TON, and TMC.
 
