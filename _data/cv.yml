@@ -11,11 +11,11 @@
   contents:
     - title: AI-driven Wireless Digital Twin
       items: 
-        - AI-driven wireless channel estimation and localization algorithm
-        - Multi-modal Sensing &#58 RF, acoustic, image
-    - title: Novel Backscatter Communication and Sensing System
+        - AI-driven wireless channel prediction and localization
+        - Multi-modal Sensing &#58 RF, acoustic, image for robots, AR/VR
+    - title: Novel Battery-free Communication and Sensing System
       items:
-        - Acoustic Backscatter System for RF-disable environment
+        - Acoustic Backscatter for RF-disable environments
         - RF backscatter and wireless charging
         
 - title: Education
