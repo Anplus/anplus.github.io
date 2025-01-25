@@ -25,6 +25,7 @@ jobs:
       run: |
         npm install -g @mermaid-js/mermaid-cli
         gem install bundler
+        gem update --system
         bundle update --bundler
         bundle install
     - name: Setup deploy options
