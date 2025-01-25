@@ -8,6 +8,7 @@ nav_order: 3
 ---
 
 ## University of Pittsburgh
+
 - Guest Lecturer for CS 3720 Advanced Topics in Internet of Things, 2025 Spring
 - Guest Lecturer for CS 2520 Wide Area Networks, 2024 Fall
 
@@ -20,5 +21,6 @@ nav_order: 3
 - Teaching Assistant for Mobile Computing (COMP 4342), 2017
 
 ## Dalian University of Technology
+
 - Teaching Assistant for Microcomputer Assembly and Commissioning, 2014-2017
 
