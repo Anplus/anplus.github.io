@@ -23,7 +23,8 @@ jobs:
         bundler-cache: true
     - name: Install deps
       run: |
-        npm install -g mermaid.cli
+        npm uninstall -g mermaid.cli
+        pm install -g @mermaid-js/mermaid-cli
         gem install bundler
         bundle update
         bundle install
