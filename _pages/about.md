@@ -21,7 +21,7 @@ My research centers on wireless systems, mobile computing, and their intersectio
 
 I am the recipient of the ACM China SIGBED Doctoral Dissertation Award 2022, ACM MobiCom 2023 Best Paper Runner-up, IEEE SECON 2020 and 2023 Best Paper, and ACM MobiCom Best Demo Runner-up in 2018 and 2022. My works have been published in top conferences and journals such as MobiCom, SIGCOMM, NSDI, INFOCOM, MobiSys, Sensys, S&P, RAL, TON, and TMC.
 
-<p><strong style="color:#FF6666;">I am looking for multiple self-motivated PhD students/research assistants to start in Winter/Spring/Fall 2026. Please feel free to reach out to explore potential opportunities to work together. Contact: an.zhenlin@outlook.com </strong></p>
+<p><strong style="color:#FF6666;">I am looking for multiple self-motivated PhD students/research assistants to start in Fall 2025 and Spring/Fall 2026. Please feel free to reach out to explore potential opportunities to work together. Contact: an.zhenlin@outlook.com </strong></p>
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
