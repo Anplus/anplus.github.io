@@ -24,6 +24,7 @@ nav_order: 3
 - IEEE Transactions on Mobile Computing
 - IEEE Transactions on Dependable and Secure Computing
 - IEEE Internet of Things Journal
+- Engineering Applications of Artificial Intelligence
 - ACM Transactions on Sensor Networks
 - IEEE Embedded Systems Letters
 - Journal of Radio Frequency Identification
