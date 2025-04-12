@@ -15,9 +15,9 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am currently a postdoctoral researcher at the University of Pittsburgh and Princeton University, advised by Dr. Longfei Shangguan and Prof. Kyle Jamieson. Prior that, I was a postdoc at Hong Kong Polytechnic University. 
+I am an incoming assistant professor in the School of Computing at University of Georgia, with a start date in Fall 2025. I am a postdoctoral researcher at the University of Pittsburgh and Princeton University, advised by [Dr. Longfei Shangguan](https://shanggdlk.github.io/) and [Prof. Kyle Jamieson](https://www.cs.princeton.edu/~kylej/). Prior to that, I was a postdoc and got my Ph.D. at Hong Kong Polytechnic University, where I was advised by [Dr. Lei Yang](https://web.comp.polyu.edu.hk/csyanglei/#/pages/profile/about) and [Prof. Jiannong Cao](https://www4.comp.polyu.edu.hk/~csjcao/). 
 
-My research centers on wireless systems and networking (NextG, IoT), and mobile and ubiquitous computing (localization, multimodal sensing, and immersive virtual/augmented reality applications). *Currently, I focus on AI-driven wireless digital twins for radio world model/scene understanding, and its application for channel prediction, localization, sensing, and interaction.*
+My research centers on wireless systems and networking, and mobile and ubiquitous computing (localization, multi-modal sensing, and immersive virtual/augmented reality applications). *Currently, I focus on AI-driven wireless digital twins for radio world model/scene understanding, and its application for channel prediction, localization, sensing, and interaction.*
 
 I am the recipient of the ACM China Council SIGBED Chapter Doctoral Dissertation Award 2022, ACM MobiCom 2023 Best Paper Runner-up, IEEE SECON 2020 and 2023 Best Paper, and ACM MobiCom Best Demo Runner-up in 2018 and 2022. My works have been published in top conferences and journals such as MobiCom, MobiSys, SIGCOMM, NSDI, INFOCOM, S&P, RAL, TON, and TMC.
 
