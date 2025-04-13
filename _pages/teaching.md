@@ -23,6 +23,8 @@ nav_order: 3
 - Teaching Assistant for Microcomputer Assembly and Commissioning, 2014-2017
 
 ## Talks
+- 2025-Feb, Bring Intelligence to Next-generation Wireless Systems, **University of Georgia**
+- 2025-Feb, Bring Intelligence to Next-generation Wireless Systems, **University of Minnesota Twin Cities**
 - 2025-Jan, Learning to Build Wireless Environment Digital Twins, **Nokia Bell Labs**
 - 2024-Oct, Neural Radio-Frequency Radiance Fields, **Rensselaer Polytechnic Institute**
 - 2024-Sep, Advancements in Wireless Sensing, **Palantir Technologies**
