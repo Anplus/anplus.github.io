@@ -8,6 +8,8 @@ nav_order: 3
 ---
 
 ## Awards
+- ACM MobiSys Rising Star, 2025
+- Best Paper Award Nominees, ACM Sensys 2025
 - Best Paper Award Runner-up, ACM MobiCom 2023
 - Graduate Award, ACM MobiCom 2023
 - Best Paper Award, IEEE SECON 2023
