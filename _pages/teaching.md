@@ -7,6 +7,10 @@ nav: true
 nav_order: 3
 ---
 
+## University of Georgia
+
+- Lecturer for CSCI 4900/6900: Mobile Computing and Internet of Things, 2025 Fall
+
 ## University of Pittsburgh
 
 - Guest Lecturer for CS 3720 Advanced Topics in Internet of Things, 2025 Spring
