@@ -15,7 +15,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am an assistant professor in the [School of Computing](https://computing.uga.edu/) at University of Georgia. I was a postdoctoral researcher at the University of Pittsburgh and Princeton University, advised by [Dr. Longfei Shangguan](https://shanggdlk.github.io/) and [Prof. Kyle Jamieson](https://www.cs.princeton.edu/~kylej/). Prior to that, I was a postdoc and got my Ph.D. at Hong Kong Polytechnic University, where I was advised by [Dr. Lei Yang](https://web.comp.polyu.edu.hk/csyanglei/#/pages/profile/about) and [Prof. Jiannong Cao](https://www4.comp.polyu.edu.hk/~csjcao/). 
+I am an assistant professor in the [School of Computing](https://computing.uga.edu/) at [University of Georgia](https://www.uga.edu/). I was a postdoctoral researcher at the University of Pittsburgh and Princeton University, advised by [Dr. Longfei Shangguan](https://shanggdlk.github.io/) and [Prof. Kyle Jamieson](https://www.cs.princeton.edu/~kylej/). Prior to that, I was a postdoc and got my Ph.D. at Hong Kong Polytechnic University, where I was advised by [Dr. Lei Yang](https://web.comp.polyu.edu.hk/csyanglei/#/pages/profile/about) and [Prof. Jiannong Cao](https://www4.comp.polyu.edu.hk/~csjcao/). 
 
 My research centers on wireless systems, mobile computing, and their intersection with AI. I explore physics-informed AI for intelligent communication, localization, and sensing. Recently, I focus on neural ray tracing to model and understand the wireless world, and leverage multi-sensor smart glasses for building egocentric digital twins and enabling novel human-environment interactions.
 
