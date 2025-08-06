@@ -17,7 +17,11 @@ social: true  # includes social icons at the bottom of the page
 
 I am an assistant professor in the [School of Computing](https://computing.uga.edu/) at [University of Georgia](https://www.uga.edu/). I was a postdoctoral researcher at the University of Pittsburgh and Princeton University, advised by [Dr. Longfei Shangguan](https://shanggdlk.github.io/) and [Prof. Kyle Jamieson](https://www.cs.princeton.edu/~kylej/). Prior to that, I was a postdoc and got my Ph.D. at Hong Kong Polytechnic University, where I was advised by [Dr. Lei Yang](https://web.comp.polyu.edu.hk/csyanglei/#/pages/profile/about) and [Prof. Jiannong Cao](https://www4.comp.polyu.edu.hk/~csjcao/). 
 
-My research centers on wireless systems, mobile computing, and their intersection with AI. I explore physics-informed AI for intelligent communication, localization, and sensing. Recently, I focus on neural ray tracing to model and understand the wireless world, and leverage multi-sensor smart glasses for building egocentric digital twins and enabling novel human-environment interactions.
+My research centers on wireless systems, mobile computing, and their intersection with AI. I explore physics-informed AI for intelligent communication, localization, and sensing. Recently, I focus on 
+
+- leverage AR/VR/MR glasses for building egocentric digital twins and enabling novel human-environment interactions
+- neural ray tracing to model and understand the radio/acoustic world
+- build NextG AI-native wireless systems with the radio digital twin
 
 I am the recipient of the ACM China SIGBED Doctoral Dissertation Award 2022, ACM MobiCom 2023 Best Paper Runner-up, IEEE SECON 2020 and 2023 Best Paper, and ACM MobiCom Best Demo Runner-up in 2018 and 2022. My works have been published in top conferences and journals such as MobiCom, SIGCOMM, NSDI, INFOCOM, MobiSys, Sensys, S&P, RAL, TON, and TMC.
 
