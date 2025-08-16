@@ -25,4 +25,4 @@ Candidates with solid **programming skills, system prototyping experience**, and
 
 The **University of Georgia (UGA)** is the flagship institution of the state of Georgia and one of the oldest public universities in the United States (founded in 1785). UGA is ranked **#46 among National Universities** (U.S. News & World Report 2025), reflecting its strong academic reputation and growing research impact. UGA is located in **Athens, GA**, a vibrant and affordable college town only a short drive from **Atlanta**, a global hub for technology and industry.  
 
-![University of Georgia Campus](uga_1920x1080.jpg)
+[University of Georgia Campus](https://anplus.github.io/assets/img/uga_1920x1080.jpg)
