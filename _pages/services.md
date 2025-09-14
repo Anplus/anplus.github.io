@@ -22,10 +22,10 @@ nav_order: 3
 - Outstanding Graduate, Dalian University of Technology, 2017
 
 ## Reviewer
-- IEEE/ACM Transactions on Networking
-- IEEE Transactions on Mobile Computing
-- IEEE Transactions on Dependable and Secure Computing
-- IEEE Internet of Things Journal
+- IEEE/ACM Transactions on Networking (2019-2025)
+- IEEE Transactions on Mobile Computing (2019-2025)
+- IEEE Transactions on Dependable and Secure Computing 
+- IEEE Internet of Things Journal (2019-2025)
 - Engineering Applications of Artificial Intelligence
 - ACM Transactions on Sensor Networks
 - IEEE Embedded Systems Letters
@@ -33,10 +33,12 @@ nav_order: 3
 - IEEE Transactions on Information Forensics and Security
 - IEEE Transactions on Automation Science and Engineering
 - Nature Science Reports
+- IEEE Sensor Journal (2025)
+- IEEE Transactions on Industrial Informatics (2025)
 - International Journal of Communication Systems
 - Journal of Computer Science and Technology
 
 ## Technical Program Member
-- ICPADS 2022,2023,2024
-- ICA3PP 2024
+- ICPADS 2022,2023,2024, 2025
+- ICA3PP 2024,2025
 - ACM MobiArch 2023
