@@ -10,7 +10,7 @@ nav_order: 3
 ## University of Georgia
 
 - Lecturer for CSCI 8000: Embedded AI systems and Spatial Computing, 2026 Spring ([Website](https://anplus.notion.site/csci-8000-embedded-foundation-models))
-- Lecturer for CSCI 4900/6900: Mobile Computing and Internet of Things, 2025 Fall([Website](https://www.notion.so/anplus/CS4900-6900-Mobile-Computing-and-the-Internet-of-Things))
+- Lecturer for CSCI 4900/6900: Mobile Computing and Internet of Things, 2025 Fall ([Website](https://www.notion.so/anplus/CS4900-6900-Mobile-Computing-and-the-Internet-of-Things))
 
 ## University of Pittsburgh
 
