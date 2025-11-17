@@ -11,9 +11,9 @@ nav_order: 3
 
 Our lab conducts system research at the intersection of **AI, mobile computing and networks**, with a strong focus on building the next generation of intelligent wireless systems. Current focus areas include:  
 
-- **Efficient and intelligent AR/VR systems**  
-- **AI-driven wireless channel modeling and digital twins**  
-- **Cross-modality sensing and wireless localization**  
+- **Physical AI and 3D VLM for AR/VR**  
+- **Neural Ray Tracing for Radio/Acousitcs**  
+- **AI4Networks, Intelligent Wireless Systems**  
 
 Candidates with solid **programming skills, system prototyping experience**, and a strong background in **wireless networks, signal processing, AI/ML, or embedded/IoT systems** will be preferred.  
 
