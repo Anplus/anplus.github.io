@@ -37,8 +37,11 @@ nav_order: 3
 - IEEE Transactions on Industrial Informatics (2025)
 - International Journal of Communication Systems
 - Journal of Computer Science and Technology
+- IEEE Robotics and Automation Letters (RA-L) 
 
 ## Technical Program Member
+- IEEE MASS 2026
+- IWCMC 2026
 - ICPADS 2022,2023,2024, 2025
 - ICA3PP 2024,2025
 - ACM MobiArch 2023
