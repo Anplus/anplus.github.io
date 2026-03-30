@@ -26,22 +26,25 @@ nav_order: 3
 - IEEE Transactions on Mobile Computing (2019-2025)
 - IEEE Transactions on Dependable and Secure Computing 
 - IEEE Internet of Things Journal (2019-2025)
-- Engineering Applications of Artificial Intelligence
-- ACM Transactions on Sensor Networks
-- IEEE Embedded Systems Letters
-- Journal of Radio Frequency Identification
-- IEEE Transactions on Information Forensics and Security
+- IEEE Robotics and Automation Letters (2026)
+- Engineering Applications of Artificial Intelligence (2025, 2026)
+- ACM Transactions on Sensor Networks (2023, 2025, 2026)
+- IEEE Embedded Systems Letters (2025)
+- Journal of Radio Frequency Identification (2024, 2025, 2026)
+- IEEE Transactions on Information Forensics and Security (2025)
 - IEEE Transactions on Automation Science and Engineering
 - Nature Science Reports
 - IEEE Sensor Journal (2025)
 - IEEE Transactions on Industrial Informatics (2025)
 - International Journal of Communication Systems
 - Journal of Computer Science and Technology
-- IEEE Robotics and Automation Letters (RA-L) 
+
 
 ## Technical Program Member
 - IEEE MASS 2026
-- IWCMC 2026
 - ICPADS 2022,2023,2024, 2025
 - ICA3PP 2024,2025
+- HeadSys 2026
+- BodySys 2025
+- IWCMC 2026
 - ACM MobiArch 2023
