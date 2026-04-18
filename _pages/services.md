@@ -38,6 +38,8 @@ nav_order: 3
 - IEEE Transactions on Industrial Informatics (2025)
 - International Journal of Communication Systems
 - Journal of Computer Science and Technology
+- IEEE Communication Magazine
+- Pervasive Computing
 
 
 ## Technical Program Member
@@ -47,4 +49,7 @@ nav_order: 3
 - HeadSys 2026
 - BodySys 2025
 - IWCMC 2026
+- ACM IMC Shadow TPC 2026
+- ACM CoNext Artifacts 2026
+- ACM CAIS Artifacts 2026
 - ACM MobiArch 2023
