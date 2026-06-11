@@ -5,6 +5,9 @@
 # =============================================================================
 
 conference:
+  - year: 2027
+    items:
+      - "TPC Member, IEEE INFOCOM"
   - year: 2026
     items:
       - "TPC Member, IEEE MASS"
