@@ -1,0 +1,26 @@
+# =============================================================================
+# NEWS — newest first. To add an item:
+#
+# - date: "Jun 2026"
+#   text: "One paper accepted to **MobiCom 2027**. [Details](https://...)"
+#
+# `text` supports Markdown (bold, links).
+# =============================================================================
+
+- date: "May 2025"
+  text: "Invited to serve on the TPC for BodySys 2025, and our SenSys 2025 paper **LeakyFeeder** has been nominated for a Best Paper Award."
+
+- date: "Dec 2023"
+  text: "One paper on cross-medium communication and one on optical metasurfaces accepted to **MobiCom 2024**; one paper on RFID systems accepted to **NSDI 2024**."
+
+- date: "Oct 2023"
+  text: "Our papers received the **ACM MobiCom 2023 Best Paper Runner-up Award** and Graduate Award."
+
+- date: "Dec 2022"
+  text: "Two papers accepted by **INFOCOM 2023**."
+
+- date: "Nov 2022"
+  text: "Two papers accepted by **MobiCom 2023**."
+
+- date: "Oct 2022"
+  text: "Received the **ACM China SIGBED Doctoral Dissertation Award 2022**."

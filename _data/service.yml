@@ -1,0 +1,51 @@
+# =============================================================================
+# SERVICE
+# `conference` — TPC / organizing roles, grouped by year (newest first).
+# `journal_reviewer` — flat list (journals usually span many years).
+# =============================================================================
+
+conference:
+  - year: 2026
+    items:
+      - "TPC Member, IEEE MASS"
+      - "TPC Member, HeadSys"
+      - "TPC Member, IWCMC"
+      - "Shadow TPC Member, ACM IMC"
+      - "Artifact Evaluation Committee, ACM CoNEXT"
+      - "Artifact Evaluation Committee, ACM CAIS"
+  - year: 2025
+    items:
+      - "TPC Member, BodySys"
+      - "TPC Member, ICPADS"
+      - "TPC Member, ICA3PP"
+  - year: 2024
+    items:
+      - "TPC Member, ICPADS"
+      - "TPC Member, ICA3PP"
+  - year: 2023
+    items:
+      - "TPC Member, ICPADS"
+      - "TPC Member, ACM MobiArch"
+  - year: 2022
+    items:
+      - "TPC Member, ICPADS"
+
+journal_reviewer:
+  - "IEEE/ACM Transactions on Networking"
+  - "IEEE Transactions on Mobile Computing"
+  - "IEEE Transactions on Dependable and Secure Computing"
+  - "IEEE Internet of Things Journal"
+  - "IEEE Robotics and Automation Letters"
+  - "IEEE Transactions on Information Forensics and Security"
+  - "IEEE Transactions on Automation Science and Engineering"
+  - "IEEE Transactions on Industrial Informatics"
+  - "IEEE Embedded Systems Letters"
+  - "IEEE Sensors Journal"
+  - "IEEE Communications Magazine"
+  - "IEEE Pervasive Computing"
+  - "ACM Transactions on Sensor Networks"
+  - "Engineering Applications of Artificial Intelligence"
+  - "Journal of Radio Frequency Identification"
+  - "Nature Scientific Reports"
+  - "International Journal of Communication Systems"
+  - "Journal of Computer Science and Technology"

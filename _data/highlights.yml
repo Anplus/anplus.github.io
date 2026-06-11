@@ -1,0 +1,76 @@
+# =============================================================================
+# RESEARCH HIGHLIGHTS shown on the About page (the venue-chip sections).
+# Each section: a title, an optional one-line lead, and groups of works.
+# Each work: name, venue chip text, optional url.
+#
+# To add a work, append under the right group:
+#   - name: "SystemName"
+#     venue: "MobiCom'27"
+#     url: "https://..."     # optional
+# =============================================================================
+
+- section: "Wireless Digital Twin & Physics-Informed AI"
+  lead: "Learning to model and understand the radio/acoustic world with neural ray tracing and radio digital twins."
+  groups:
+    - label: "Neural RF Modeling"
+      works:
+        - name: "NeRF2"
+          venue: "MobiCom'23"
+          url: "https://xpengzhao.github.io/NeRF2/"
+        - name: "RadioTwin"
+          venue: "DySPAN'25"
+    - label: "AI-Native Wireless"
+      works:
+        - name: "LocGPT"
+          venue: "MobiSys'24"
+        - name: "RF Neural Networks"
+          venue: "MobiHoc'24"
+
+- section: "IoT & Backscatter Systems"
+  lead: "Repurposing off-the-shelf devices for extended communication, localization, and sensing capabilities."
+  groups:
+    - label: "Cross-Technology"
+      works:
+        - name: "Cross-Frequency Communication"
+          venue: "MobiCom'18"
+        - name: "One Tag Two Codes"
+          venue: "MobiCom'21"
+        - name: "MagCode"
+          venue: "MobiCom'23"
+          url: "https://donghui-dai.github.io/magcode/"
+    - label: "Backscatter & RFID"
+      works:
+        - name: "In-Concrete Backscatter"
+          venue: "SIGCOMM'22"
+          url: "https://anplus.github.io/In-concrete-Backscatter/"
+        - name: "RFID+"
+          venue: "NSDI'24"
+        - name: "Cross-Medium Networks"
+          venue: "MobiCom'24"
+    - label: "Acoustic Sensing"
+      works:
+        - name: "LeakyFeeder"
+          venue: "SenSys'25"
+          url: "https://leekyfeeder.github.io/results/"
+        - name: "MetaSonic"
+          venue: "RAL'25"
+          url: "https://anplus.github.io/metasonic/"
+
+- section: "Privacy & Security"
+  lead: "Uncovering and defending against physical-layer threats in wireless and sensing systems."
+  groups:
+    - label: "Attacks"
+      works:
+        - name: "HeatSide (Wireless Charger Attack)"
+          venue: "S&P'23"
+        - name: "RF-Parrot"
+          venue: "INFOCOM'24"
+    - label: "Defenses"
+      works:
+        - name: "RF-DNA"
+          venue: "MobiCom'22"
+          url: "/assets/pdf/rfdna-mobicom.pdf"
+        - name: "NFChain"
+          venue: "INFOCOM'23"
+        - name: "MetaRFence"
+          venue: "TMC'26"

@@ -1,0 +1,347 @@
+# =============================================================================
+# PUBLICATIONS
+# To add a paper, copy this template to the top (newest first):
+#
+# - title: "Paper Title"
+#   authors: "First Author, Zhenlin An, Third Author"   # use * after a name for co-first authors
+#   venue: "MobiCom"            # short badge shown on the left
+#   where: "Proceedings of ACM MobiCom"                 # full venue string
+#   year: 2026
+#   award: "Best Paper Award"   # optional, delete if none
+#   link: "https://..."         # optional project/PDF page, delete if none
+#
+# Your name is bolded + underlined automatically; * is rendered as-is.
+# =============================================================================
+
+# ---- 2026 -------------------------------------------------------------------
+- title: "Efficient Structure-Guided 3D Physical Property Reasoning"
+  authors: "Hongbo Lan, Zhenlin An, Haoyu Li, Vaibhav Singh, Longfei Shangguan"
+  venue: "CVPR W."
+  where: "CVPR Workshop on Open-World 3D Scene Understanding (OpenSUN3D)"
+  year: 2026
+  link: "https://hl-demo.github.io/"
+
+- title: "Toward Scalable Reconfigurable Intelligent Surfaces Using Commercial RFIDs"
+  authors: "Jingyu Tong, Xiaopeng Zhao, Zhicheng Wang, Donghui Dai, Zheng Gong, Zhenlin An, Lei Yang"
+  venue: "IEEE TMC"
+  where: "IEEE Transactions on Mobile Computing"
+  year: 2026
+
+- title: "MetaRFence: Protecting Human Motion Privacy Against RFID Sensing via Metasurface"
+  authors: "Zheng Shi, Zhikai Ding, Yanni Yang, Zhenlin An, Runyu Pan, Yanling Bu, Guoming Zhang, Pengfei Hu, Jiannong Cao"
+  venue: "IEEE TMC"
+  where: "IEEE Transactions on Mobile Computing"
+  year: 2026
+
+# ---- 2025 -------------------------------------------------------------------
+- title: "LeakyFeeder: In-Air Gesture Control Through Leaky Acoustic Waves"
+  authors: "Yongjie Yang, Tao Chen, Zhenlin An, Shirui Cao, Xiaoran Fan, Longfei Shangguan"
+  venue: "SenSys"
+  where: "Proceedings of ACM SenSys"
+  year: 2025
+  award: "Best Paper Award Nominee"
+  link: "https://leekyfeeder.github.io/results/"
+
+- title: "RadioTwin: A Digital Building Material Twin for Wideband, Cross-link, Cross-band Wireless Channel Prediction"
+  authors: "Zhenlin An, Longfei Shangguan, John Kaewell, Philip Pietraski, Kyle Jamieson"
+  venue: "DySPAN"
+  where: "IEEE DySPAN"
+  year: 2025
+
+- title: "MetaSonic: Advancing Robot Localization with Directional Embedded Acoustic Signals"
+  authors: "Junling Wang, Zhenlin An, Yi Guo"
+  venue: "IEEE RAL"
+  where: "IEEE Robotics and Automation Letters"
+  year: 2025
+  link: "https://anplus.github.io/metasonic/"
+
+- title: "Commercial RFIDs as Reconfigurable Intelligent Surfaces"
+  authors: "Jingyu Tong, Xiaopeng Zhao, Donghui Dai, Zhenlin An, Lei Yang"
+  venue: "INFOCOM"
+  where: "IEEE INFOCOM"
+  year: 2025
+
+- title: "RFnoID: Protecting RFID Motion Privacy via Metasurface"
+  authors: "Yanni Yang, Zheng Shi, Zhenlin An, Runyu Pan, Yanling Bu, Guoming Zhang, Pengfei Hu, Jiannong Cao"
+  venue: "INFOCOM"
+  where: "IEEE INFOCOM"
+  year: 2025
+
+# ---- 2024 -------------------------------------------------------------------
+- title: "Romeo: Fault Detection of Rotating Machinery via Fine-Grained mmWave Velocity Signature"
+  authors: "Yanni Yang, Pengfei Hu, Jun Luo, Zhenlin An, Jiannong Cao, Dongxiao Yu, Xiuzhen Cheng"
+  venue: "IEEE TMC"
+  where: "IEEE Transactions on Mobile Computing"
+  year: 2024
+
+- title: "In-Sensor Machine Learning: Radio Frequency Neural Networks for Wireless Sensing"
+  authors: "Jingyu Tong, Zhenlin An, Xiaopeng Zhao, Sicong Liao, Lei Yang"
+  venue: "MobiHoc"
+  where: "Proceedings of ACM MobiHoc"
+  year: 2024
+
+- title: "Pushing the Boundaries of High-Precision AoA Estimation with Enhanced Phase Estimation Protocol"
+  authors: "Xiaopeng Zhao, Guosheng Wang, Zhenlin An, Qingrui Pan, Qiongzheng Lin, Lei Yang"
+  venue: "IEEE IoTJ"
+  where: "IEEE Internet of Things Journal"
+  year: 2024
+
+- title: "Understanding Localization by a Tailored GPT"
+  authors: "Xiaopeng Zhao, Guosheng Wang, Zhenlin An, Qingrui Pan, Lei Yang"
+  venue: "MobiSys"
+  where: "Proceedings of ACM MobiSys"
+  year: 2024
+
+- title: "RFID+: Spatially Controllable Identification of UHF RFIDs via Controlled Magnetic Fields"
+  authors: "Donghui Dai, Zhenlin An, Zheng Gong, Qingrui Pan, Lei Yang"
+  venue: "NSDI"
+  where: "Proceedings of USENIX NSDI"
+  year: 2024
+
+- title: "Enabling Cross-Medium Wireless Networks with Miniature Mechanical Antennas"
+  authors: "Zheng Gong, Zhenlin An, Donghui Dai, Jingyu Tong, Shuijie Long, Lei Yang"
+  venue: "MobiCom"
+  where: "Proceedings of ACM MobiCom"
+  year: 2024
+
+- title: "Binary Optical Machine Learning: Million-Scale Physical Neural Networks with Nano Neurons"
+  authors: "Xueyuan Yang, Zhenlin An, Qingrui Pan, Lei Yang, Dangyuan Lei, Yulong Fan"
+  venue: "MobiCom"
+  where: "Proceedings of ACM MobiCom"
+  year: 2024
+
+- title: "RF-Parrot: Wireless Eavesdropping on Wired Audio"
+  authors: "Yanni Yang, Genglin Wang, Zhenlin An, Pengfei Hu, Xiuzhen Cheng, Guoming Zhang"
+  venue: "INFOCOM"
+  where: "IEEE INFOCOM"
+  year: 2024
+  link: "https://genglinwang.github.io/RFRA4audio/"
+
+# ---- 2023 -------------------------------------------------------------------
+- title: "NeRF2: Neural Radio-Frequency Radiance Fields"
+  authors: "Xiaopeng Zhao*, Zhenlin An*, Qingrui Pan, Lei Yang"
+  venue: "MobiCom"
+  where: "Proceedings of ACM MobiCom"
+  year: 2023
+  award: "Best Paper Runner-up Award"
+  link: "https://xpengzhao.github.io/NeRF2/"
+
+- title: "XiTuXi: Sealing the Gaps in Cross-Technology Communication by Neural Machine Translation"
+  authors: "Sicong Liao, Zhenlin An, Qingrui Pan, Xiaopeng Zhao, Jingyu Tong, Lei Yang"
+  venue: "SenSys"
+  where: "Proceedings of ACM SenSys"
+  year: 2023
+
+- title: "Inducing Wireless Chargers to Voice Out for Inaudible Command Attacks"
+  authors: "Donghui Dai, Zhenlin An, Lei Yang"
+  venue: "IEEE S&P"
+  where: "IEEE Symposium on Security and Privacy (Oakland)"
+  year: 2023
+
+- title: "MagCode: NFC-Enabled Barcodes for NFC-Disabled Smartphones"
+  authors: "Donghui Dai, Zhenlin An, Qingrui Pan, Lei Yang"
+  venue: "MobiCom"
+  where: "Proceedings of ACM MobiCom"
+  year: 2023
+  link: "https://donghui-dai.github.io/magcode/"
+
+- title: "NFChain: A Practical Fingerprinting Scheme for NFC Tag Authentication"
+  authors: "Yanni Yang, Jiannong Cao, Zhenlin An, Yanwen Wang, Pengfei Hu, Guoming Zhang"
+  venue: "INFOCOM"
+  where: "IEEE INFOCOM"
+  year: 2023
+
+- title: "Transfer Beamforming via Beamforming for Transfer"
+  authors: "Xueyuan Yang, Zhenlin An, Xiaopeng Zhao, Lei Yang"
+  venue: "INFOCOM"
+  where: "IEEE INFOCOM"
+  year: 2023
+
+- title: "Revisiting Backscatter Frequency Drifts for Fingerprinting RFIDs: A Perspective of Frequency Resolution"
+  authors: "Qingrui Pan, Zhenlin An, Xiaopeng Zhao, Lei Yang"
+  venue: "SECON"
+  where: "IEEE SECON"
+  year: 2023
+  award: "Best Paper Award"
+
+- title: "MagCode: Bringing NFC Feature to All Smartphones (Demo)"
+  authors: "Donghui Dai, Zhenlin An, Qingrui Pan, Lei Yang"
+  venue: "Demo"
+  where: "Proceedings of ACM MobiCom"
+  year: 2023
+  link: "https://donghui-dai.github.io/magcode/"
+
+- title: "Radio Frequency Neural Networks for Wireless Sensing (Demo)"
+  authors: "Jingyu Tong, Zhenlin An, Xiaopeng Zhao, Sicong Liao, Lei Yang"
+  venue: "Demo"
+  where: "Proceedings of ACM MobiCom"
+  year: 2023
+
+- title: "A Bi-LSTM Approach for Modelling Movement Uncertainty of Crowdsourced Human Trajectories under Complex Urban Environments"
+  authors: "Yue Yu, Yepeng Yao, Zhewei Liu, Zhenlin An, Biyu Chen, Liang Chen, Ruizhi Chen"
+  venue: "JAG"
+  where: "International Journal of Applied Earth Observation and Geoinformation"
+  year: 2023
+
+# ---- 2022 -------------------------------------------------------------------
+- title: "Empowering Smart Buildings with Self-Sensing Concrete for Structural Health Monitoring"
+  authors: "Zheng Gong, Lubing Han, Zhenlin An, Lei Yang, Siqi Ding, Yu Xiang"
+  venue: "SIGCOMM"
+  where: "Proceedings of ACM SIGCOMM"
+  year: 2022
+  link: "https://anplus.github.io/In-concrete-Backscatter/"
+
+- title: "RF-DNA: Large-Scale Physical-Layer Identifications of RFIDs via Dual Natural Attributes"
+  authors: "Qingrui Pan, Zhenlin An, Xueyuan Yang, Xiaopeng Zhao, Lei Yang"
+  venue: "MobiCom"
+  where: "Proceedings of ACM MobiCom"
+  year: 2022
+  link: "/assets/pdf/rfdna-mobicom.pdf"
+
+- title: "Localizing RFIDs in Pixel Dimensions"
+  authors: "Zhenlin An, Qiongzheng Lin, Lei Yang, Yi Guo, Ping Li"
+  venue: "ACM TOSN"
+  where: "ACM Transactions on Sensor Networks"
+  year: 2022
+
+- title: "Tagcaster: Activating Wireless Voice of Electronic Toll Collection Systems with Zero Start-up Cost"
+  authors: "Zhenlin An, Qiongzheng Lin, Lei Yang, Lei Xie"
+  venue: "IEEE/ACM ToN"
+  where: "IEEE/ACM Transactions on Networking"
+  year: 2022
+
+- title: "LSAB: Enhancing Spatio-Temporal Efficiency of AoA Tracking Systems"
+  authors: "Qingrui Pan, Zhenlin An, Lei Yang, Qiongzheng Lin"
+  venue: "ACM TOSN"
+  where: "ACM Transactions on Sensor Networks"
+  year: 2022
+
+- title: "LSAB: Enhancing Spatio-Temporal Efficiency of AoA Tracking Systems"
+  authors: "Qingrui Pan, Zhenlin An, Qiongzheng Lin, Lei Yang"
+  venue: "INFOCOM"
+  where: "IEEE INFOCOM"
+  year: 2022
+
+- title: "Constructing Smart Buildings with In-Concrete Backscatter Networks (Demo)"
+  authors: "Zheng Gong, Zhenlin An, Jingyu Tong, Donghui Dai, Lei Yang"
+  venue: "Demo"
+  where: "Proceedings of ACM MobiCom"
+  year: 2022
+  award: "Best Demo Runner-up Award"
+  link: "https://anplus.github.io/In-concrete-Backscatter/"
+
+- title: "Inducing Wireless Chargers to Voice Out (Demo)"
+  authors: "Donghui Dai, Zhenlin An, Lei Yang"
+  venue: "Demo"
+  where: "Proceedings of ACM MobiCom"
+  year: 2022
+  link: "https://anplus.github.io/magsound/"
+
+# ---- 2021 -------------------------------------------------------------------
+- title: "One Tag, Two Codes: Identifying Optical Barcodes with NFC"
+  authors: "Zhenlin An, Qiongzheng Lin, Xiaopeng Zhao, Lei Yang, Dongliang Zheng, Guiqing Wu, Shan Chang"
+  venue: "MobiCom"
+  where: "Proceedings of ACM MobiCom"
+  year: 2021
+
+- title: "Turbocharging Deep Backscatter Through Constructive Power Surges with a Single RF Source"
+  authors: "Zhenlin An, Qiongzheng Lin, Qingrui Pan, Lei Yang"
+  venue: "INFOCOM"
+  where: "IEEE INFOCOM"
+  year: 2021
+
+- title: "Identifying UHF RFIDs in Range of Readers with WiFi"
+  authors: "Zhenlin An, Lei Yang, Qiongzheng Lin"
+  venue: "IEEE/ACM ToN"
+  where: "IEEE/ACM Transactions on Networking"
+  year: 2021
+
+- title: "RegNet: A Neural Network Model for Predicting Regional Desirability with VGI Data"
+  authors: "Wenzhong Shi, Zhewei Liu, Zhenlin An, Pengfei Chen"
+  venue: "IJGIS"
+  where: "International Journal of Geographical Information Science"
+  year: 2021
+
+- title: "On Cross-Technology Mutualism in the Internet of Things: Communication and Localization (PhD Thesis)"
+  authors: "Zhenlin An"
+  venue: "Thesis"
+  where: "Hong Kong Polytechnic University"
+  year: 2021
+
+# ---- 2020 -------------------------------------------------------------------
+- title: "General-Purpose Deep Tracking Platform Across Protocols for the Internet of Things"
+  authors: "Zhenlin An, Qiongzheng Lin, Ping Li, Lei Yang"
+  venue: "MobiSys"
+  where: "Proceedings of ACM MobiSys"
+  year: 2020
+
+- title: "Revitalizing Ultrasonic Positioning Systems for Ultrasound-Incapable Smart Devices"
+  authors: "Zhenlin An, Qiongzheng Lin, Lei Yang, Yi Guo"
+  venue: "IEEE TMC"
+  where: "IEEE Transactions on Mobile Computing"
+  year: 2020
+
+- title: "Acquiring Bloom Filters Across Commercial RFIDs in Physical Layer"
+  authors: "Zhenlin An, Qiongzheng Lin, Lei Yang, Wei Lou, Lei Xie"
+  venue: "IEEE/ACM ToN"
+  where: "IEEE/ACM Transactions on Networking"
+  year: 2020
+
+- title: "RFCamera: Identifying RFIDs in Pixel Dimensions"
+  authors: "Qiongzheng Lin, Lei Yang, Zhenlin An, Yi Guo, Ping Li"
+  venue: "SECON"
+  where: "IEEE SECON"
+  year: 2020
+  award: "Best Paper Award"
+
+# ---- 2019 -------------------------------------------------------------------
+- title: "Rebooting Ultrasonic Positioning Systems for Ultrasound-Incapable Smart Devices"
+  authors: "Qiongzheng Lin, Zhenlin An, Lei Yang"
+  venue: "MobiCom"
+  where: "Proceedings of ACM MobiCom"
+  year: 2019
+
+- title: "Embracing Tag Collisions: Acquiring Bloom Filters Across RFIDs in Physical Layer"
+  authors: "Zhenlin An, Qiongzheng Lin, Lei Yang, Wei Lou"
+  venue: "INFOCOM"
+  where: "IEEE INFOCOM"
+  year: 2019
+  award: "Best-in-Session Presentation Award"
+
+- title: "Towards Physical-Layer Vibration Sensing with RFIDs"
+  authors: "Ping Li, Zhenlin An, Lei Yang, Panlong Yang"
+  venue: "INFOCOM"
+  where: "IEEE INFOCOM"
+  year: 2019
+
+- title: "Tash: Toward Selective Reading as Hash Primitives for Gen2 RFIDs"
+  authors: "Qiongzheng Lin, Lei Yang, Chunhui Duan, Zhenlin An"
+  venue: "IEEE/ACM ToN"
+  where: "IEEE/ACM Transactions on Networking"
+  year: 2019
+
+- title: "RFID Harmonic for Vibration Sensing"
+  authors: "Ping Li, Zhenlin An, Lei Yang, Panlong Yang, Qiongzheng Lin"
+  venue: "IEEE TMC"
+  where: "IEEE Transactions on Mobile Computing"
+  year: 2019
+
+- title: "Activating Wireless Voice for E-Toll Collection Systems with Zero Start-up Cost (Demo)"
+  authors: "Zhenlin An, Lei Yang, Qiongzheng Lin"
+  venue: "Demo"
+  where: "Proceedings of ACM MobiCom"
+  year: 2019
+
+# ---- 2018 -------------------------------------------------------------------
+- title: "Cross-Frequency Communication: Near-Field Identification of UHF RFIDs with WiFi!"
+  authors: "Zhenlin An, Qiongzheng Lin, Lei Yang"
+  venue: "MobiCom"
+  where: "Proceedings of ACM MobiCom"
+  year: 2018
+
+# ---- 2017 -------------------------------------------------------------------
+- title: "Analog On-Tag Hashing: Towards Selective Reading as Hash Primitives in Gen2 RFID Systems"
+  authors: "Lei Yang, Qiongzheng Lin, Chunhui Duan, Zhenlin An"
+  venue: "MobiCom"
+  where: "Proceedings of ACM MobiCom"
+  year: 2017

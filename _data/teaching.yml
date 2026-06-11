@@ -1,0 +1,51 @@
+# =============================================================================
+# TEACHING (grouped by institution) and TALKS (newest first).
+# =============================================================================
+
+teaching:
+  - institution: "University of Georgia"
+    items:
+      - text: "Lecturer, CSCI 8000: Embedded AI Systems and Spatial Computing, Spring 2026"
+        url: "https://anplus.notion.site/csci-8000-embedded-foundation-models"
+      - text: "Lecturer, CSCI 4900/6900: Mobile Computing and Internet of Things, Fall 2025"
+        url: "https://www.notion.so/anplus/CS4900-6900-Mobile-Computing-and-the-Internet-of-Things"
+  - institution: "University of Pittsburgh"
+    items:
+      - text: "Guest Lecturer, CS 3720: Advanced Topics in Internet of Things, Spring 2025"
+      - text: "Guest Lecturer, CS 2520: Wide Area Networks, Fall 2024"
+  - institution: "The Hong Kong Polytechnic University"
+    items:
+      - text: "Teaching Assistant, COMP 3421: Web Application Design and Development, 2021"
+      - text: "Teaching Assistant, COMP 5322: Internet Computing and Applications, 2020"
+      - text: "Teaching Assistant, COMP 4141: Crowdfunding and E-Finance, 2019"
+      - text: "Teaching Assistant, COMP 5321: Enterprise Web and Internet Computing for Managers, 2018"
+      - text: "Teaching Assistant, COMP 4342: Mobile Computing, 2017"
+  - institution: "Dalian University of Technology"
+    items:
+      - text: "Teaching Assistant, Microcomputer Assembly and Commissioning, 2014–2017"
+
+talks:
+  - date: "Feb 2025"
+    title: "Bring Intelligence to Next-Generation Wireless Systems"
+    host: "University of Georgia"
+  - date: "Feb 2025"
+    title: "Bring Intelligence to Next-Generation Wireless Systems"
+    host: "University of Minnesota Twin Cities"
+  - date: "Jan 2025"
+    title: "Learning to Build Wireless Environment Digital Twins"
+    host: "Nokia Bell Labs"
+  - date: "Oct 2024"
+    title: "Neural Radio-Frequency Radiance Fields"
+    host: "Rensselaer Polytechnic Institute"
+  - date: "Sep 2024"
+    title: "Advancements in Wireless Sensing"
+    host: "Palantir Technologies"
+  - date: "Jul 2024"
+    title: "Learning to Understand the Radio Environment"
+    host: "Microsoft"
+  - date: "Jun 2024"
+    title: "RadioTwin"
+    host: "InterDigital"
+  - date: "Jun 2023"
+    title: "Neural Radio-Frequency Radiance Fields"
+    host: "Dalian University of Technology"

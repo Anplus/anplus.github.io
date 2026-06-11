@@ -1,0 +1,41 @@
+# =============================================================================
+# AWARDS — grouped by year, newest first.
+# To add: put a new item under the right year, or add a new year block at top:
+#
+# - year: 2027
+#   items:
+#     - "Some New Award, Venue"
+# =============================================================================
+
+- year: 2025
+  items:
+    - "ACM MobiSys Rising Star"
+    - "Best Paper Award Nominee, ACM SenSys 2025 (LeakyFeeder)"
+
+- year: 2023
+  items:
+    - "Best Paper Runner-up Award, ACM MobiCom 2023 (NeRF2)"
+    - "Graduate Award, ACM MobiCom 2023"
+    - "Best Paper Award, IEEE SECON 2023"
+
+- year: 2022
+  items:
+    - "ACM China SIGBED Doctoral Dissertation Award"
+    - "Best Demo Runner-up Award, ACM MobiCom 2022"
+
+- year: 2020
+  items:
+    - "Best Paper Award, IEEE SECON 2020"
+
+- year: 2019
+  items:
+    - "Best-in-Session Presentation Award, IEEE INFOCOM 2019"
+    - "Student Travel Grant, IEEE INFOCOM 2019"
+
+- year: 2018
+  items:
+    - "Best Demo Runner-up Award, ACM MobiCom 2018"
+
+- year: 2017
+  items:
+    - "Outstanding Graduate, Dalian University of Technology"

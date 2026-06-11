@@ -1,35 +1,41 @@
 <!DOCTYPE html>
-<html lang="{{ site.lang }}">
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% if page.title and page.url != "/" %}{{ page.title }} · {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
+  <meta name="description" content="{{ site.description | strip_newlines | strip }}">
+  <meta name="author" content="{{ site.author }}">
+  <link rel="canonical" href="{{ page.url | absolute_url }}">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,400;0,600;0,700;1,400&family=Source+Serif+4:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+</head>
+<body>
 
-  <!-- Head -->
-  <head>
-  {%- if page.redirect -%}
-    <meta http-equiv="refresh" content="3; url={{ site.baseurl }}/" />
-  {%- endif -%}
-  {% include head.html %}
-  </head>
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="site-name" href="{{ '/' | relative_url }}">Zhenlin An</a>
+    <nav class="site-nav">
+      {% assign items = "About,/;Research,/research/;Publications,/publications/;Awards,/awards/;Service,/service/;Teaching,/teaching/" | split: ";" %}
+      {% for item in items %}
+        {% assign parts = item | split: "," %}
+        <a href="{{ parts[1] | relative_url }}" {% if page.url == parts[1] %}class="active"{% endif %}>{{ parts[0] }}</a>
+      {% endfor %}
+    </nav>
+  </div>
+</header>
 
-  <!-- Body -->
-  <body class="{% if site.navbar_fixed %}fixed-top-nav{% endif %} {% unless site.footer_fixed %}sticky-bottom-footer{% endunless %}">
+<main class="wrap">
+  {{ content }}
+</main>
 
-    <!-- Header -->
-    {%- include header.html %}
+<footer class="site-footer">
+  <div class="wrap">
+    &copy; {{ 'now' | date: "%Y" }} Zhenlin An &middot; Built with Jekyll, hosted on GitHub Pages.
+  </div>
+</footer>
 
-    <!-- Content -->
-    <div class="container mt-5">
-      {{ content }}
-    </div>
-
-    <!-- Footer -->
-    {%- include footer.html %}
-
-    <!-- JavaScripts -->
-    {% include scripts/jquery.html %}
-    {% include scripts/bootstrap.html %}
-    {% include scripts/masonry.html %}
-    {% include scripts/misc.html %}
-    {% include scripts/mathjax.html %}
-    {% include scripts/analytics.html %}
-    {% include scripts/progressBar.html %}
-  </body>
+</body>
 </html>
