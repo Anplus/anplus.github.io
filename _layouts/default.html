@@ -18,7 +18,7 @@
   <div class="wrap header-inner">
     <a class="site-name" href="{{ '/' | relative_url }}">Zhenlin An</a>
     <nav class="site-nav">
-      {% assign items = "About,/;Research,/research/;Publications,/publications/;Awards,/awards/;Service,/service/;Teaching,/teaching/" | split: ";" %}
+      {% assign items = "About,/;Research,/research/;Publications,/publications/;Awards,/awards/;Service,/service/;Teaching,/teaching/;Lab,/lab/" | split: ";" %}
       {% for item in items %}
         {% assign parts = item | split: "," %}
         <a href="{{ parts[1] | relative_url }}" {% if page.url == parts[1] %}class="active"{% endif %}>{{ parts[0] }}</a>

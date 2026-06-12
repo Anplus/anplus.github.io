@@ -1,0 +1,26 @@
+# =============================================================================
+# LAB MEMBERS — grouped by role. To add a member:
+#
+# - role: "PhD Students"
+#   members:
+#     - name: "Full Name"
+#       note: "B.S. from ..., joined Fall 2026"   # optional
+#       url: "https://..."                         # optional personal page
+#
+# Roles are listed in the order below (e.g. PhD → MS → Undergraduate).
+# =============================================================================
+
+- role: "Undergraduate"
+  members:
+    - name: "Nabaa Ahmed"
+      note: "University of Georgia"
+
+- role: "Intern"
+  members:
+    - name: "Zihui Yun"
+      note: "Master at Cornell University"
+
+
+- role: "High School"
+  members:
+    - name: "Seah Hong"

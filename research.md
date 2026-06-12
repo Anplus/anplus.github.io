@@ -5,22 +5,52 @@ permalink: /research/
 
 # Research
 
-My long-term goal is to build *AI-native wireless systems*: systems in which machine learning is not an afterthought bolted onto a traditional radio stack, but a first-class component that understands, predicts, and adapts to the physical world. This page sketches the vision behind each thrust; concrete papers are listed on the [Publications](/publications/) page.
+Our group designs and builds wireless networking and mobile computing systems, validated through end-to-end implementations on custom hardware or off-the-shelf equipment. Below are the major research themes and selected publications from each project direction. The complete list lives on the [Publications](/publications/) page.
 
-## Wireless Digital Twin: Closing the Radio–Vision Loop
+## AI-Native Wireless and Radio Twins
 
-Radio waves and light are both electromagnetic waves, yet computer vision has powerful learned scene representations while wireless systems still rely on hand-crafted channel models. I work on closing this gap by building **wireless digital twins**: neural representations of the radio environment that are learned from measurements and grounded in physics.
+Future wireless systems will be extraordinarily complex, and we believe AI should be designed into them from the ground up rather than bolted on afterward — an *AI-native* approach in which learning is a first-class part of how a system communicates and senses. Much like robotics, wireless has to cope with data that is scarce, high-dimensional, and highly diverse, largely because the radio environment itself is so complex. Our work therefore starts by building *radio twins*: physics-grounded, learnable simulations of the wireless environment that can generate large amounts of synthetic data on demand. On top of this foundation, we design AI-native wireless networks and AI-native wireless sensing systems that can be trained from synthetic data, real-world measurements, or both. Because the radio twin is interactive, an agent that controls the network can act within the simulated environment, observe how the radio world responds, and improve from that feedback — closing the loop between simulation and reality.
 
-Our work on **NeRF2** (MobiCom'23, Best Paper Runner-up) introduced neural radiance fields to the RF domain, learning how a scene scatters and attenuates radio signals. **RadioTwin** (DySPAN'25) takes the next step, building digital twins of building materials that predict wideband, cross-link, and cross-band wireless channels. The vision is a closed loop between the radio world and its digital replica: the twin predicts the channel, the radio measures reality, and the discrepancy refines the twin, enabling intelligent spectrum use, localization, and network planning in NextG systems.
+<div class="thrust-works" markdown="1">
+**Representative work**
 
-## IoT & Backscatter Systems
+- *Neural RF ray tracing* — [NeRF2](https://xpengzhao.github.io/NeRF2/) (MobiCom'23), RadioTwin (DySPAN'25), RIS-NeRF2 (INFOCOM'25 / TMC'26)
+- *RL for antenna design* — ColiCode (MobiCom'21)
+</div>
 
-Billions of deployed devices, RFID tags, NFC chips, barcodes, and acoustic transducers, were each designed for one narrow task. I ask how far we can stretch them beyond their original specifications. This line of work spans cross-technology communication (**Cross-Frequency Communication**, MobiCom'18; **MagCode**, MobiCom'23), backscatter networks embedded in infrastructure (**In-Concrete Backscatter**, SIGCOMM'22), spatially controllable RFID identification (**RFID+**, NSDI'24), cross-medium networking with mechanical antennas (MobiCom'24), and acoustic sensing on everyday devices (**LeakyFeeder**, SenSys'25).
+## Intelligent Sensing Systems
 
-## Privacy & Security of Wireless Systems
+The same physical signals that carry data also carry rich information about the world they travel through. We build sensing systems that turn ordinary signals — radio, acoustic, and vibration — into an understanding of people, their activities, and their surroundings. This includes localizing devices and people indoors, fusing radio with vision so that radios can effectively "see," sensing fine-grained motion and gestures using the microphones and speakers already in everyday devices, and reading subtle vibrations that reveal what is happening around a sensor. The aim is perception that runs on commodity hardware, without instrumenting the environment.
 
-Every new sensing capability is also a new attack surface. We have shown that wireless chargers can be induced to issue inaudible voice commands (**IEEE S&P'23**) and that wired audio can be eavesdropped wirelessly (**RF-Parrot**, INFOCOM'24). On the defense side, we build physical-layer fingerprinting and privacy protection, including **RF-DNA** (MobiCom'22), **NFChain** (INFOCOM'23), and metasurface-based motion privacy protection (**MetaRFence**, TMC'26). The goal is to understand physical-layer threats before adversaries do, and to design defenses that work on commodity hardware.
+<div class="thrust-works" markdown="1">
+**Representative work**
 
-## Emerging Direction: Embodied & Spatial AI
+- *AI for indoor localization* — LocGPT (MobiSys'24), [iArk](https://www.youtube.com/watch?v=-zrk6UHad0w) (MobiSys'20)
+- *RF and vision* — RFCamera (SECON'20)
+- *Acoustic sensing* — [Earbuds Gesture](https://leekyfeeder.github.io/results/) (SenSys'25), Ultrasound Localization (MobiCom'19), Acoustic Metasurface (RAL'25)
+- *Vibration sensing* — mmWave (TMC'24), RFID (INFOCOM'19)
+</div>
 
-Recently, I am extending these ideas toward AR/VR glasses and robotics: efficient physical AI and 3D vision-language models for spatial computing, and neural ray tracing that lets machines reason about the radio and acoustic world the way vision models reason about images.
+## Ubiquitous IoT Network
+
+Billions of devices are already deployed around us — RFID tags, NFC chips, backscatter radios — yet each was designed for a single narrow task. We stretch these off-the-shelf, ultra-low-power devices far beyond their original specifications, turning them into a connectivity fabric that reaches places conventional networks cannot. This work makes RFID systems faster and more scalable, pushes communication into challenging media such as concrete, water, and the human body, and lets heterogeneous technologies that were never meant to interoperate — WiFi, RFID, NFC, AM radio, and cameras — talk directly to one another. The goal is ubiquitous, near-zero-power connectivity woven invisibly into the physical world.
+
+<div class="thrust-works" markdown="1">
+**Representative work**
+
+- *Efficient RFID* — Spatial-Controlled RFID (NSDI'24), Hash Protocol (MobiCom'17, INFOCOM'19)
+- *IoT in challenging media* — Air–Water (MobiCom'24), [In-Concrete](https://anplus.github.io/In-concrete-Backscatter/) (SIGCOMM'22), In-Vivo (INFOCOM'21)
+- *Cross-technology communication* — WiFi–RFID (MobiCom'18), RFID–AM Radio (MobiCom'21), NFC–Camera (MobiCom'23)
+</div>
+
+## IoT Security
+
+Every new sensing or communication capability is also a new attack surface. We study physical-layer threats in wireless and sensing systems before adversaries do, and turn that understanding into practical defenses that run on commodity hardware. On the offensive side, we reveal how ordinary devices can be coerced into leaking information or accepting forged signals through unintended physical channels. On the defensive side, we build physical-layer fingerprinting and metasurface-based protection that authenticate devices and shield users' privacy without requiring new hardware. Treating the physical layer as a first-class security boundary, this work aims to make pervasive wireless and IoT systems trustworthy by design.
+
+<div class="thrust-works" markdown="1">
+**Representative work**
+
+- *Metasurface protection* — MetaRFence (INFOCOM'25, TMC'26)
+- *Side-channel attacks* — [Audio Injection](https://anplus.github.io/magsound/) (S&P'23), [Eavesdropping](https://genglinwang.github.io/RFRA4audio/) (INFOCOM'24)
+- *Hardware fingerprinting* — RF-DNA (MobiCom'22), NFC Fingerprinting (INFOCOM'23)
+</div>

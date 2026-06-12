@@ -25,6 +25,12 @@ teaching:
       - text: "Teaching Assistant, Microcomputer Assembly and Commissioning, 2014–2017"
 
 talks:
+  - date: "Mar 2026"
+    title: "Toward High-fidelity Radio Environment Digital Twins"
+    host: "NextG Channel Model Alliance"
+  - date: "April 2026"
+    title: "Enabling AI-Native NextG Wireless via High-fidelity Radio Digital Twins"
+    host: "Asccenture"
   - date: "Feb 2025"
     title: "Bring Intelligence to Next-Generation Wireless Systems"
     host: "University of Georgia"

@@ -11,7 +11,7 @@ permalink: /
 
 I am an assistant professor in the [School of Computing](https://computing.uga.edu/) at the [University of Georgia](https://www.uga.edu/). I was a postdoctoral researcher at the University of Pittsburgh and Princeton University, advised by [Dr. Longfei Shangguan](https://shanggdlk.github.io/) and [Prof. Kyle Jamieson](https://www.cs.princeton.edu/~kylej/). Prior to that, I was a postdoc and received my Ph.D. at The Hong Kong Polytechnic University, advised by [Dr. Lei Yang](https://web.comp.polyu.edu.hk/csyanglei/#/pages/profile/about) and [Prof. Jiannong Cao](https://www4.comp.polyu.edu.hk/~csjcao/).
 
-My research centers on mobile computing, wireless systems, and their intersection with AI. I explore physics-informed AI for intelligent communication, localization, and sensing. My work is driven by three core questions: (1) how can off-the-shelf sensors and radios be repurposed for extended capabilities? (2) how can we address the system challenges of emerging AI-native wireless systems? (3) how can sensing systems be designed to better support everyday life?
+My research centers on mobile computing, wireless systems, and their intersection with AI. My long-term vision is to build intelligent networks and sensing systems that can understand the physical world, reason about radio and sensor signals, and adapt through interaction with real and simulated environments. **Our recent focus is on agentic AI for wireless, IoT, and sensing systems, including radio digital twins, autonomous network simulation and optimization, and agents for interpreting IoT sensing data in health and daily life.**
 
 <div class="opening" markdown="1">
 **I am looking for multiple self-motivated PhD students and research assistants (Spring/Fall 2026). Feel free to reach out: [an.zhenlin@outlook.com](mailto:an.zhenlin@outlook.com)**
@@ -33,9 +33,9 @@ My research centers on mobile computing, wireless systems, and their intersectio
 
 </div>
 
-## Research Highlights
+## Research Overview
 
-My recent research is organized around the following directions (see the [Research](/research/) page for the vision behind them, and [Publications](/publications/) for the full list):
+My recent research is organized around the following directions (see [Publications](/publications/) for the full list):
 
 {% for sec in site.data.highlights %}
 <div class="highlight-section">
@@ -52,6 +52,7 @@ My recent research is organized around the following directions (see the [Resear
 
 ## News
 
+<div class="news-scroll">
 <table class="news-table">
 {% for n in site.data.news %}
   <tr>
@@ -60,3 +61,13 @@ My recent research is organized around the following directions (see the [Resear
   </tr>
 {% endfor %}
 </table>
+</div>
+
+## Collaborators
+
+<div class="collab-logos">
+  <a href="https://www.princeton.edu/" title="Princeton University"><img src="/assets/img/logo-university-of-princeton.png" alt="Princeton University"></a>
+  <a href="https://www.pitt.edu/" title="University of Pittsburgh"><img src="/assets/img/logo-university-of-pittsburgh.png" alt="University of Pittsburgh"></a>
+  <a href="https://www.nist.gov/" title="NIST"><img src="/assets/img/logo-nist.png" alt="NIST"></a>
+  <a href="https://www.interdigital.com/" title="InterDigital"><img src="/assets/img/logo-interdigital.png" alt="InterDigital"></a>
+</div>

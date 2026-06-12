@@ -7,8 +7,14 @@
 # `text` supports Markdown (bold, links).
 # =============================================================================
 
-- date: "May 19, 2026"
-  text: "Invited to serve on the TPC for **IEEE INFOCOM 2027**."
+- date: "May 2026"
+  text: "Invited to serve on the TPC for **IEEE INFOCOM 2027** and **IEEE MASS 2026**."
+
+- date: "Apr 2026"
+  text: "Gave an invited talk on high-fidelity radio digital twins at **Accenture**."
+
+- date: "Mar 2026"
+  text: "Gave an invited talk on high-fidelity radio digital twins at the **NextG Channel Model Alliance**."
 
 - date: "May 2025"
   text: "Invited to serve on the TPC for BodySys 2025, and our SenSys 2025 paper **LeakyFeeder** has been nominated for a Best Paper Award."

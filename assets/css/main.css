@@ -91,6 +91,7 @@ a:hover { text-decoration: underline; }
   align-items: start;
   margin-top: 1.5rem;
 }
+.about-photo { margin-top: 2.5rem; }
 .about-photo img {
   width: 100%;
   border-radius: 8px;
@@ -131,7 +132,36 @@ a.chip:hover { background: var(--accent); color: #fff; text-decoration: none; }
 .highlight-line .hl-label { font-weight: 600; color: var(--ink-light); margin-right: 0.3rem; }
 
 /* --- news ------------------------------------------------------------------ */
+.news-scroll {
+  max-height: 17rem;          /* ~5 items; the rest scroll into view */
+  overflow-y: auto;
+  padding-right: 0.5rem;       /* keep scrollbar off the text */
+}
+.news-scroll::-webkit-scrollbar { width: 6px; }
+.news-scroll::-webkit-scrollbar-thumb {
+  background: var(--rule, #ddd);
+  border-radius: 3px;
+}
+.news-scroll { scrollbar-width: thin; }
 .news-table { width: 100%; border-collapse: collapse; }
+
+/* --- collaborators ---------------------------------------------------------- */
+.collab-logos {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 1.25rem 1.5rem;
+  margin-top: 0.5rem;
+}
+.collab-logos a { display: inline-flex; align-items: center; }
+.collab-logos img {
+  height: 38px;
+  width: auto;
+  object-fit: contain;
+  opacity: 0.8;
+  transition: opacity 0.2s ease;
+}
+.collab-logos a:hover img { opacity: 1; }
 .news-table td { padding: 0.35rem 0; vertical-align: top; border: none; }
 .news-table td.date {
   width: 7.5rem;
@@ -193,6 +223,63 @@ a.chip:hover { background: var(--accent); color: #fff; text-decoration: none; }
 }
 .year-block ul { margin: 0.15rem 0 0; padding-left: 1.1rem; }
 .year-block li { margin-bottom: 0.25rem; }
+
+/* --- campus photo ----------------------------------------------------------- */
+.campus-photo { margin: 1.4rem 0 0; }
+.campus-photo img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  display: block;
+}
+.campus-photo figcaption {
+  margin-top: 0.4rem;
+  font-size: 0.85rem;
+  color: var(--ink-light);
+  text-align: center;
+}
+
+/* --- research thrust works -------------------------------------------------- */
+.thrust-works {
+  margin: 0.9rem 0 1.6rem;
+  padding: 0.6rem 0 0.2rem 1rem;
+  border-left: 3px solid var(--rule);
+  font-size: 0.93rem;
+  color: var(--ink-light);
+}
+.thrust-works > p:first-child {
+  margin: 0 0 0.4rem;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--ink);
+}
+.thrust-works ul { margin: 0; padding-left: 1.1rem; }
+.thrust-works li { margin-bottom: 0.3rem; }
+.thrust-works em { color: var(--ink); font-style: italic; }
+
+/* --- lab roster ------------------------------------------------------------- */
+.lab-group {
+  display: grid;
+  grid-template-columns: 160px 1fr;
+  gap: 1rem;
+  padding: 0.6rem 0;
+  border-bottom: 1px solid var(--rule);
+}
+.lab-group:last-of-type { border-bottom: none; }
+.lab-group .lab-role {
+  font-family: "Source Serif 4", Georgia, serif;
+  font-size: 1.1rem;
+  color: var(--accent);
+  font-weight: 700;
+}
+.lab-group ul { margin: 0.15rem 0 0; padding-left: 1.1rem; }
+.lab-group li { margin-bottom: 0.25rem; }
+.lab-note { color: var(--ink-light); font-size: 0.93rem; }
+@media (max-width: 700px) {
+  .lab-group { grid-template-columns: 1fr; gap: 0.2rem; }
+}
 
 /* --- generic page lists ------------------------------------------------------ */
 main ul { padding-left: 1.3rem; }
