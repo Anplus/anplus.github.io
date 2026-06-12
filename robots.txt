@@ -1,4 +1,0 @@
-User-agent: *
-Disallow:
-
-Sitemap: https://anplus.github.io/sitemap.xml

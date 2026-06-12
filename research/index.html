@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Research · Zhenlin An</title>
+  <meta name="description" content="Zhenlin An is an assistant professor in the School of Computing at the University of Georgia, working on mobile computing, wireless systems, and AI.">
+  <meta name="author" content="Zhenlin An">
+  <link rel="canonical" href="https://anplus.github.io/research/">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,400;0,600;0,700;1,400&family=Source+Serif+4:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/main.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="site-name" href="/">Zhenlin An</a>
+    <nav class="site-nav">
+      
+      
+        
+        <a href="/" >About</a>
+      
+        
+        <a href="/research/" class="active">Research</a>
+      
+        
+        <a href="/publications/" >Publications</a>
+      
+        
+        <a href="/awards/" >Awards</a>
+      
+        
+        <a href="/service/" >Service</a>
+      
+        
+        <a href="/teaching/" >Teaching</a>
+      
+        
+        <a href="/lab/" >Lab</a>
+      
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+  <h1 id="research">Research</h1>
+
+<p>Our group designs and builds wireless networking and mobile computing systems, validated through end-to-end implementations on custom hardware or off-the-shelf equipment. Below are the major research themes and selected publications from each project direction. The complete list lives on the <a href="/publications/">Publications</a> page.</p>
+
+<h2 id="ai-native-wireless-and-radio-twins">AI-Native Wireless and Radio Twins</h2>
+
+<p>Future wireless systems will be extraordinarily complex, and we believe AI should be designed into them from the ground up rather than bolted on afterward — an <em>AI-native</em> approach in which learning is a first-class part of how a system communicates and senses. Much like robotics, wireless has to cope with data that is scarce, high-dimensional, and highly diverse, largely because the radio environment itself is so complex. Our work therefore starts by building <em>radio twins</em>: physics-grounded, learnable simulations of the wireless environment that can generate large amounts of synthetic data on demand. On top of this foundation, we design AI-native wireless networks and AI-native wireless sensing systems that can be trained from synthetic data, real-world measurements, or both. Because the radio twin is interactive, an agent that controls the network can act within the simulated environment, observe how the radio world responds, and improve from that feedback — closing the loop between simulation and reality.</p>
+
+<div class="thrust-works">
+  <p><strong>Representative work</strong></p>
+
+  <ul>
+    <li><em>Neural RF ray tracing</em> — <a href="https://xpengzhao.github.io/NeRF2/">NeRF2</a> (MobiCom’23), RadioTwin (DySPAN’25), RIS-NeRF2 (INFOCOM’25 / TMC’26)</li>
+    <li><em>RL for antenna design</em> — ColiCode (MobiCom’21)</li>
+  </ul>
+</div>
+
+<h2 id="intelligent-sensing-systems">Intelligent Sensing Systems</h2>
+
+<p>The same physical signals that carry data also carry rich information about the world they travel through. We build sensing systems that turn ordinary signals — radio, acoustic, and vibration — into an understanding of people, their activities, and their surroundings. This includes localizing devices and people indoors, fusing radio with vision so that radios can effectively “see,” sensing fine-grained motion and gestures using the microphones and speakers already in everyday devices, and reading subtle vibrations that reveal what is happening around a sensor. The aim is perception that runs on commodity hardware, without instrumenting the environment.</p>
+
+<div class="thrust-works">
+  <p><strong>Representative work</strong></p>
+
+  <ul>
+    <li><em>AI for indoor localization</em> — LocGPT (MobiSys’24), <a href="https://www.youtube.com/watch?v=-zrk6UHad0w">iArk</a> (MobiSys’20)</li>
+    <li><em>RF and vision</em> — RFCamera (SECON’20)</li>
+    <li><em>Acoustic sensing</em> — <a href="https://leekyfeeder.github.io/results/">Earbuds Gesture</a> (SenSys’25), Ultrasound Localization (MobiCom’19), Acoustic Metasurface (RAL’25)</li>
+    <li><em>Vibration sensing</em> — mmWave (TMC’24), RFID (INFOCOM’19)</li>
+  </ul>
+</div>
+
+<h2 id="ubiquitous-iot-network">Ubiquitous IoT Network</h2>
+
+<p>Billions of devices are already deployed around us — RFID tags, NFC chips, backscatter radios — yet each was designed for a single narrow task. We stretch these off-the-shelf, ultra-low-power devices far beyond their original specifications, turning them into a connectivity fabric that reaches places conventional networks cannot. This work makes RFID systems faster and more scalable, pushes communication into challenging media such as concrete, water, and the human body, and lets heterogeneous technologies that were never meant to interoperate — WiFi, RFID, NFC, AM radio, and cameras — talk directly to one another. The goal is ubiquitous, near-zero-power connectivity woven invisibly into the physical world.</p>
+
+<div class="thrust-works">
+  <p><strong>Representative work</strong></p>
+
+  <ul>
+    <li><em>Efficient RFID</em> — Spatial-Controlled RFID (NSDI’24), Hash Protocol (MobiCom’17, INFOCOM’19)</li>
+    <li><em>IoT in challenging media</em> — Air–Water (MobiCom’24), <a href="https://anplus.github.io/In-concrete-Backscatter/">In-Concrete</a> (SIGCOMM’22), In-Vivo (INFOCOM’21)</li>
+    <li><em>Cross-technology communication</em> — WiFi–RFID (MobiCom’18), RFID–AM Radio (MobiCom’21), NFC–Camera (MobiCom’23)</li>
+  </ul>
+</div>
+
+<h2 id="iot-security">IoT Security</h2>
+
+<p>Every new sensing or communication capability is also a new attack surface. We study physical-layer threats in wireless and sensing systems before adversaries do, and turn that understanding into practical defenses that run on commodity hardware. On the offensive side, we reveal how ordinary devices can be coerced into leaking information or accepting forged signals through unintended physical channels. On the defensive side, we build physical-layer fingerprinting and metasurface-based protection that authenticate devices and shield users’ privacy without requiring new hardware. Treating the physical layer as a first-class security boundary, this work aims to make pervasive wireless and IoT systems trustworthy by design.</p>
+
+<div class="thrust-works">
+  <p><strong>Representative work</strong></p>
+
+  <ul>
+    <li><em>Metasurface protection</em> — MetaRFence (INFOCOM’25, TMC’26)</li>
+    <li><em>Side-channel attacks</em> — <a href="https://anplus.github.io/magsound/">Audio Injection</a> (S&amp;P’23), <a href="https://genglinwang.github.io/RFRA4audio/">Eavesdropping</a> (INFOCOM’24)</li>
+    <li><em>Hardware fingerprinting</em> — RF-DNA (MobiCom’22), NFC Fingerprinting (INFOCOM’23)</li>
+  </ul>
+</div>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    &copy; 2026 Zhenlin An &middot; Built with Jekyll, hosted on GitHub Pages.
+  </div>
+</footer>
+
+</body>
+</html>
