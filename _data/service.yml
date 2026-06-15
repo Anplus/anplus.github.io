@@ -10,12 +10,13 @@ conference:
       - "TPC Member, IEEE INFOCOM"
   - year: 2026
     items:
-      - "Reviewer, <a href='https://neurips.cc/'>NeurIPS</a>"
-      - "Reviewer, UbiComp (Mar x2, June x2)"
+      - "TPC Memeber, WAIC Academic 2026"
       - "TPC Member, IEEE MASS"
       - "TPC Member, HeadSys"
       - "TPC Member, IWCMC"
       - "Shadow TPC Member, ACM IMC"
+      - "Reviewer, <a href='https://neurips.cc/'>NeurIPS</a>"
+      - "Reviewer, UbiComp (Mar x2, June x2)"
       - "Artifact Evaluation Committee, ACM CoNEXT"
       - "Artifact Evaluation Committee, ACM CAIS"
   - year: 2025
@@ -37,7 +38,7 @@ conference:
 
 journal_reviewer:
   - "IEEE/ACM Transactions on Networking"
-  - "IEEE Transactions on Mobile Computing"
+  - "IEEE Transactions on Mobile Computing: 2026 (Jun)"
   - "IEEE Transactions on Dependable and Secure Computing"
   - "IEEE Internet of Things Journal"
   - "IEEE Robotics and Automation Letters"
