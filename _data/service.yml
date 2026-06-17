@@ -4,13 +4,17 @@
 # `journal_reviewer` — flat list (journals usually span many years).
 # =============================================================================
 
+Standard:
+  - "Member of IEEE SA - P1944: Standard for Channel Models of Wireless Systems"
+
 conference:
   - year: 2027
     items:
       - "TPC Member, IEEE INFOCOM"
   - year: 2026
     items:
-      - "TPC Memeber, WAIC Academic 2026"
+      - "Track Chair, IEEE MSN"
+      - "TPC Memeber, WAIC Academic"
       - "TPC Member, IEEE MASS"
       - "TPC Member, HeadSys"
       - "TPC Member, IWCMC"
