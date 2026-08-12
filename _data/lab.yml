@@ -10,6 +10,19 @@
 # Roles are listed in the order below (e.g. PhD → MS → Undergraduate).
 # =============================================================================
 
+- role: "PhD Students"
+  members:
+    - name: "Jiaying Du"
+      note: "B.S. from ShanghaiTech University"
+    - name: "Pinxiang Wang"
+      note: "M.S. from North Carolina State University"
+    - name: "Runnan Si"
+      note: "B.S. from Tianjin University"
+    - name: "Yunfan Leng"
+      note: "B.S. from Dalian University of Technology; co-advised with [Haijian Sun](https://sunlab.uga.edu/)"
+    - name: "Shi Zheng"
+      note: "B.S. from Shandong University; co-advised with [Haijian Sun](https://sunlab.uga.edu/)"
+
 - role: "Undergraduate"
   members:
     - name: "Nabaa Ahmed"

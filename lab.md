@@ -13,7 +13,7 @@ I am fortunate to work with the following students.
 <div class="lab-group">
   <div class="lab-role">{{ group.role }}</div>
   <ul>
-    {% for m in group.members %}<li>{% if m.url %}<a href="{{ m.url }}">{{ m.name }}</a>{% else %}{{ m.name }}{% endif %}{% if m.note %} <span class="lab-note">({{ m.note }})</span>{% endif %}</li>{% endfor %}
+    {% for m in group.members %}<li>{% if m.url %}<a href="{{ m.url }}">{{ m.name }}</a>{% else %}{{ m.name }}{% endif %}{% if m.note %} <span class="lab-note">({{ m.note | markdownify }})</span>{% endif %}</li>{% endfor %}
   </ul>
 </div>
 {% endfor %}
