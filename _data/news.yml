@@ -7,6 +7,9 @@
 # `text` supports Markdown (bold, links).
 # =============================================================================
 
+- date: "Aug 2026"
+  text: "Our paper **RadioSight** was accepted to **ACM MobiCom 2026**. It proposes dynamic neural ray tracing for millimeter-wave XR network prediction and optimization. [Project page](https://pervasive-intelligence-lab.github.io/radiosight/)"
+
 - date: "May 2026"
   text: "Invited to serve on the TPC for **IEEE INFOCOM 2027** and **IEEE MASS 2026**."
 

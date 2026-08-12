@@ -33,6 +33,13 @@
   where: "IEEE Transactions on Mobile Computing"
   year: 2026
 
+- title: "RadioSight: Predictive mmWave XR Network Optimization from Dynamic Neural Radio Fields"
+  authors: "Lihao Zhang, Paul Kudyba, Zhenlin An, Haijian Sun"
+  venue: "MobiCom"
+  where: "Proceedings of ACM MobiCom"
+  year: 2026
+  link: "https://pervasive-intelligence-lab.github.io/radiosight/"
+
 # ---- 2025 -------------------------------------------------------------------
 - title: "LeakyFeeder: In-Air Gesture Control Through Leaky Acoustic Waves"
   authors: "Yongjie Yang, Tao Chen, Zhenlin An, Shirui Cao, Xiaoran Fan, Longfei Shangguan"
