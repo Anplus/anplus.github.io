@@ -14,6 +14,12 @@
 # =============================================================================
 
 # ---- 2026 -------------------------------------------------------------------
+- title: "AutoNetSim: Intent-Driven Wireless Network Experimentation with Self-Evolving Agents"
+  authors: "Runnan Si, John Song, Haijian Sun, Zhenlin An"
+  venue: "ICNP"
+  where: "Proceedings of IEEE ICNP"
+  year: 2026
+
 - title: "Efficient Structure-Guided 3D Physical Property Reasoning"
   authors: "Hongbo Lan, Zhenlin An, Haoyu Li, Vaibhav Singh, Longfei Shangguan"
   venue: "CVPR W."
@@ -203,7 +209,6 @@
   venue: "MobiCom"
   where: "Proceedings of ACM MobiCom"
   year: 2022
-  link: "/assets/pdf/rfdna-mobicom.pdf"
 
 - title: "Localizing RFIDs in Pixel Dimensions"
   authors: "Zhenlin An, Qiongzheng Lin, Lei Yang, Yi Guo, Ping Li"

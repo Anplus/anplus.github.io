@@ -8,6 +8,9 @@
 # =============================================================================
 
 - date: "Aug 2026"
+  text: "Our paper **AutoNetSim** was accepted to **IEEE ICNP 2026**. This marks a special milestone: Runnan, my first student, has his first paper accepted. Congratulations to Runnan and John!"
+
+- date: "Aug 2026"
   text: "Our paper **RadioSight** was accepted to **ACM MobiCom 2026**. It proposes dynamic neural ray tracing for millimeter-wave XR network prediction and optimization. [Project page](https://pervasive-intelligence-lab.github.io/radiosight/)"
 
 - date: "May 2026"
