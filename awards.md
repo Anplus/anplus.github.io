@@ -7,7 +7,7 @@ permalink: /awards/
 
 ## Grants
 
-- [**NSF VINES Track 2: SCOPE-XR — Seeing the Channel: Optimizing Perception-aware Environments for XR**](https://www.nsf.gov/awardsearch/show-award?AWD_ID=2554332) — $5.1M total project funding; UGA leads the effort in collaboration with UT Austin, Virginia Tech, UW–Madison, and Ericsson Inc.
+- [**NSF VINES Track 2: SCOPE-XR — Seeing the Channel: Optimizing Perception-aware Environments for XR**](https://www.nsf.gov/awardsearch/show-award?AWD_ID=2554332)
 - **University of Georgia Startup Funding**
 
 ## Honors and Awards
