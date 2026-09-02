@@ -19,6 +19,7 @@
   venue: "ICNP"
   where: "Proceedings of IEEE ICNP"
   year: 2026
+  link: "https://pervasive-intelligence-lab.github.io/agentic-sionna/"
 
 - title: "Efficient Structure-Guided 3D Physical Property Reasoning"
   authors: "Hongbo Lan, Zhenlin An, Haoyu Li, Vaibhav Singh, Longfei Shangguan"
