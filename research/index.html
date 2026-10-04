@@ -50,20 +50,309 @@
 
 <p>Our group designs and builds wireless networking and mobile computing systems, validated through end-to-end implementations on custom hardware or off-the-shelf equipment. Below are the major research themes and selected publications from each project direction. The complete list lives on the <a href="/publications/">Publications</a> page.</p>
 
+<figure class="research-fig">
+<div class="fig-scroll"><svg viewBox="0 0 880 300" xmlns="http://www.w3.org/2000/svg" fill="#1c2025" role="img" aria-labelledby="ov-title">
+  <title id="ov-title">Research overview: three stacked layers (AI-native wireless and radio twins, intelligent sensing, ubiquitous IoT networks) grounded in the physical world, with IoT security spanning all layers.</title>
+  <defs>
+    <marker id="ov-ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#8a94a3" /></marker>
+  </defs>
+  <!-- layer: AI-native -->
+  <rect x="10" y="14" width="690" height="64" rx="10" fill="#eaf1fa" stroke="#c9d8ec" />
+  <rect x="10" y="14" width="6" height="64" rx="3" fill="#1d4f8f" />
+  <text x="30" y="41" class="rf-h">AI-Native Wireless &amp; Radio Twins</text>
+  <text x="30" y="61" class="rf-t">model · simulate · reason · act</text>
+  <g font-size="12" font-weight="600" style="fill:#1d4f8f">
+    <rect x="320" y="34" width="87" height="24" rx="12" fill="#fff" stroke="#9db8dc" /><text x="363.5" y="50" text-anchor="middle">Radio twins</text>
+    <rect x="415" y="34" width="81" height="24" rx="12" fill="#fff" stroke="#9db8dc" /><text x="455.5" y="50" text-anchor="middle">LLM agents</text>
+    <rect x="504" y="34" width="131" height="24" rx="12" fill="#fff" stroke="#9db8dc" /><text x="569.5" y="50" text-anchor="middle">Neural ray tracing</text>
+  </g>
+  <!-- gap labels -->
+  <line x1="36" y1="95" x2="36" y2="82" stroke="#8a94a3" stroke-width="1.5" marker-end="url(#ov-ah)" />
+  <text x="46" y="92" class="rf-m">sensed data and synthetic data feed learning; learned models drive sensing and control</text>
+  <!-- layer: sensing -->
+  <rect x="10" y="98" width="690" height="64" rx="10" fill="#e6f3ec" stroke="#c3e0cf" />
+  <rect x="10" y="98" width="6" height="64" rx="3" fill="#2f7d5b" />
+  <text x="30" y="125" class="rf-h">Intelligent Sensing</text>
+  <text x="30" y="145" class="rf-t">perceive people, activities &amp; surroundings</text>
+  <g font-size="12" font-weight="600" style="fill:#2f7d5b">
+    <rect x="320" y="118" width="50" height="24" rx="12" fill="#fff" stroke="#a5d0b8" /><text x="345" y="134" text-anchor="middle">Radio</text>
+    <rect x="378" y="118" width="68" height="24" rx="12" fill="#fff" stroke="#a5d0b8" /><text x="412" y="134" text-anchor="middle">Acoustic</text>
+    <rect x="454" y="118" width="75" height="24" rx="12" fill="#fff" stroke="#a5d0b8" /><text x="491.5" y="134" text-anchor="middle">Vibration</text>
+    <rect x="537" y="118" width="87" height="24" rx="12" fill="#fff" stroke="#a5d0b8" /><text x="580.5" y="134" text-anchor="middle">RF + vision</text>
+  </g>
+  <line x1="36" y1="179" x2="36" y2="166" stroke="#8a94a3" stroke-width="1.5" marker-end="url(#ov-ah)" />
+  <text x="46" y="176" class="rf-m">connectivity and raw signals from billions of low-power devices</text>
+  <!-- layer: IoT -->
+  <rect x="10" y="182" width="690" height="64" rx="10" fill="#fbeee6" stroke="#efd0bd" />
+  <rect x="10" y="182" width="6" height="64" rx="3" fill="#c0642b" />
+  <text x="30" y="209" class="rf-h">Ubiquitous IoT Network</text>
+  <text x="30" y="229" class="rf-t">near-zero-power connectivity everywhere</text>
+  <g font-size="12" font-weight="600" style="fill:#a8442c">
+    <rect x="320" y="202" width="106" height="24" rx="12" fill="#fff" stroke="#e8b99c" /><text x="373" y="218" text-anchor="middle">Efficient RFID</text>
+    <rect x="434" y="202" width="125" height="24" rx="12" fill="#fff" stroke="#e8b99c" /><text x="496.5" y="218" text-anchor="middle">Challenging media</text>
+    <rect x="567" y="202" width="119" height="24" rx="12" fill="#fff" stroke="#e8b99c" /><text x="626.5" y="218" text-anchor="middle">Cross-technology</text>
+  </g>
+  <!-- security column -->
+  <g stroke="#b3bcc8" stroke-dasharray="3 3">
+    <line x1="700" y1="46" x2="716" y2="46" /><line x1="700" y1="130" x2="716" y2="130" /><line x1="700" y1="214" x2="716" y2="214" />
+  </g>
+  <rect x="716" y="14" width="154" height="232" rx="10" fill="#f1f3f6" stroke="#c9cfd8" />
+  <text x="793" y="41" text-anchor="middle" class="rf-h">IoT Security</text>
+  <text x="793" y="60" text-anchor="middle" class="rf-t">trust across every layer</text>
+  <g font-size="12" font-weight="600" style="fill:#3d4652">
+    <rect x="733" y="76" width="120" height="24" rx="12" fill="#fff" stroke="#c9cfd8" /><text x="793" y="92" text-anchor="middle">Side channels</text>
+    <rect x="733" y="108" width="120" height="24" rx="12" fill="#fff" stroke="#c9cfd8" /><text x="793" y="124" text-anchor="middle">Fingerprinting</text>
+    <rect x="733" y="140" width="120" height="24" rx="12" fill="#fff" stroke="#c9cfd8" /><text x="793" y="156" text-anchor="middle">Metasurfaces</text>
+  </g>
+  <path d="M793,180 L815,188 V203 C815,216 805,224 793,229 C781,224 771,216 771,203 V188 Z" fill="#5b6470" />
+  <path d="M783,204 l7,7 l13,-14" fill="none" stroke="#fff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+  <!-- physical world -->
+  <line x1="36" y1="262" x2="36" y2="250" stroke="#8a94a3" stroke-width="1.5" marker-end="url(#ov-ah)" />
+  <rect x="10" y="262" width="860" height="30" rx="8" fill="#fafbfc" stroke="#c9cfd8" stroke-dasharray="5 4" />
+  <text x="440" y="282" text-anchor="middle" class="rf-t">Physical world — people · homes · buildings · concrete · water · the human body</text>
+</svg>
+</div>
+<figcaption>How the four themes fit together: low-power IoT networks connect the physical world, sensing turns its signals into understanding, AI-native radio twins model and reason about it, and security keeps every layer trustworthy.</figcaption>
+</figure>
+
 <h2 id="ai-native-wireless-and-radio-twins">AI-Native Wireless and Radio Twins</h2>
 
-<p>Future wireless systems will be extraordinarily complex, and we believe AI should be designed into them from the ground up rather than bolted on afterward — an <em>AI-native</em> approach in which learning is a first-class part of how a system communicates and senses. Much like robotics, wireless has to cope with data that is scarce, high-dimensional, and highly diverse, largely because the radio environment itself is so complex. Our work therefore starts by building <em>radio twins</em>: physics-grounded, learnable simulations of the wireless environment that can generate large amounts of synthetic data on demand. On top of this foundation, we design AI-native wireless networks and AI-native wireless sensing systems that can be trained from synthetic data, real-world measurements, or both. Because the radio twin is interactive, an agent that controls the network can act within the simulated environment, observe how the radio world responds, and improve from that feedback — closing the loop between simulation and reality.</p>
+<p>Future wireless systems will be extraordinarily complex, and we believe AI should be designed into them from the ground up rather than bolted on afterward — an <em>AI-native</em> approach in which learning is a first-class part of how a system communicates and senses. Much like robotics, wireless has to cope with data that is scarce, high-dimensional, and highly diverse, largely because the radio environment itself is so complex. Our work therefore starts by building <em>radio twins</em>: physics-grounded, learnable simulations of the wireless environment that can generate large amounts of synthetic data on demand. On top of this foundation, we design AI-native wireless networks and AI-native wireless sensing systems that can be trained from synthetic data, real-world measurements, or both — for example, predicting mmWave beams for XR users before a blockage happens.</p>
+
+<figure class="research-fig">
+<div class="fig-scroll"><svg viewBox="0 0 900 345" xmlns="http://www.w3.org/2000/svg" fill="#1c2025" role="img" aria-labelledby="ai-title">
+  <title id="ai-title">AI-native wireless loop: LLM agents turn a natural-language intent into a radio twin and simulation, observe the results, and store verified skills; the radio twin supplies synthetic data to AI-native networks and sensing systems, which return real measurements to calibrate the twin.</title>
+  <defs>
+    <marker id="ai-ah-w" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#c0642b" /></marker>
+    <marker id="ai-ah-n" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#1d4f8f" /></marker>
+    <marker id="ai-ah-g" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#2f7d5b" /></marker>
+    <radialGradient id="ai-heat" gradientUnits="userSpaceOnUse" cx="365" cy="240" r="210">
+      <stop offset="0" stop-color="#f6c56b" />
+      <stop offset="0.3" stop-color="#f4e2b0" />
+      <stop offset="0.6" stop-color="#d5e4f3" />
+      <stop offset="1" stop-color="#a9c3e4" />
+    </radialGradient>
+  </defs>
+
+  <!-- ===== Panel A: agents ===== -->
+  <rect x="10" y="10" width="240" height="325" rx="12" fill="#fdf4ee" stroke="#efd0bd" />
+  <text x="130" y="36" text-anchor="middle" class="rf-h" style="fill:#a8442c">Agentic layer</text>
+  <rect x="24" y="50" width="212" height="52" rx="10" fill="#fff" stroke="#e2b89c" />
+  <path d="M64,101.5 L60,114 L80,101.5" fill="#fff" stroke="#e2b89c" />
+  <rect x="62" y="99" width="16" height="4" fill="#fff" />
+  <g font-size="12" font-style="italic" text-anchor="middle">
+    <text x="130" y="72">“Simulate 28 GHz coverage in</text>
+    <text x="130" y="89">my lab with two APs.”</text>
+  </g>
+  <line x1="130" y1="106" x2="130" y2="122" stroke="#c0642b" stroke-width="1.5" marker-end="url(#ai-ah-w)" />
+  <circle cx="130" cy="149" r="24" fill="#c0642b" />
+  <line x1="130" y1="140" x2="130" y2="134" stroke="#fff" stroke-width="2" />
+  <circle cx="130" cy="133" r="2.5" fill="#fff" />
+  <rect x="117" y="140" width="26" height="19" rx="5" fill="#fff" />
+  <circle cx="124.5" cy="149.5" r="2.6" fill="#c0642b" />
+  <circle cx="135.5" cy="149.5" r="2.6" fill="#c0642b" />
+  <text x="130" y="191" text-anchor="middle" class="rf-b">LLM agents</text>
+  <text x="130" y="206" text-anchor="middle" class="rf-m">orchestrator + specialist workers</text>
+  <g font-size="11" font-weight="600" text-anchor="middle" style="fill:#a8442c">
+    <rect x="24" y="218" width="50" height="22" rx="11" fill="#fff" stroke="#e2b89c" /><text x="49" y="233">Plan</text>
+    <rect x="78" y="218" width="50" height="22" rx="11" fill="#fff" stroke="#e2b89c" /><text x="103" y="233">Build</text>
+    <rect x="132" y="218" width="50" height="22" rx="11" fill="#fff" stroke="#e2b89c" /><text x="157" y="233">Simulate</text>
+    <rect x="186" y="218" width="50" height="22" rx="11" fill="#fff" stroke="#e2b89c" /><text x="211" y="233">Verify</text>
+  </g>
+  <line x1="200" y1="243" x2="200" y2="256" stroke="#c0642b" stroke-width="1.5" marker-end="url(#ai-ah-w)" />
+  <line x1="60" y1="257" x2="60" y2="244" stroke="#c0642b" stroke-width="1.5" marker-end="url(#ai-ah-w)" />
+  <text x="208" y="253" class="rf-m" style="fill:#a8442c">learn</text>
+  <text x="18" y="253" class="rf-m" style="fill:#a8442c">reuse</text>
+  <path d="M52,264 V308 A78,8 0 0 0 208,308 V264" fill="#fff" stroke="#e2b89c" />
+  <ellipse cx="130" cy="264" rx="78" ry="8" fill="#fbe3d3" stroke="#e2b89c" />
+  <text x="130" y="288" text-anchor="middle" font-size="12" font-weight="700">Self-evolving skill memory</text>
+  <text x="130" y="304" text-anchor="middle" class="rf-m">skills · fixes · failure roots</text>
+
+  <!-- A <-> B -->
+  <line x1="253" y1="140" x2="296" y2="140" stroke="#c0642b" stroke-width="1.8" marker-end="url(#ai-ah-w)" />
+  <text x="275" y="132" text-anchor="middle" class="rf-m" style="fill:#a8442c;font-weight:600">act</text>
+  <line x1="296" y1="168" x2="253" y2="168" stroke="#1d4f8f" stroke-width="1.8" marker-end="url(#ai-ah-n)" />
+  <text x="275" y="184" text-anchor="middle" class="rf-m" style="fill:#1d4f8f;font-weight:600">observe</text>
+
+  <!-- ===== Panel B: radio twin ===== -->
+  <g transform="translate(10,0)">
+  <rect x="290" y="10" width="290" height="325" rx="12" fill="#eef4fb" stroke="#c9d8ec" />
+  <text x="435" y="36" text-anchor="middle" class="rf-h" style="fill:#1d4f8f">Radio twin</text>
+  <text x="435" y="54" text-anchor="middle" class="rf-t">physics-grounded · learnable · interactive</text>
+  <polygon points="313,232 435,190 435,95 313,137" fill="#fff" fill-opacity="0.9" stroke="#b8c4d4" />
+  <polygon points="435,190 555,232 555,137 435,95" fill="#fff" fill-opacity="0.75" stroke="#b8c4d4" />
+  <polygon points="313,232 435,190 555,232 435,276" fill="url(#ai-heat)" stroke="#b8c4d4" />
+  <!-- line of sight (blocked) -->
+  <line x1="369" y1="206" x2="489" y2="238" stroke="#5b6470" stroke-width="1.3" stroke-dasharray="4 3" />
+  <!-- reflected rays -->
+  <polyline points="365,204 505,165 495,232" fill="none" stroke="#e8902a" stroke-width="2.2" stroke-linejoin="round" />
+  <polyline points="365,204 395,150 492,232" fill="none" stroke="#e8902a" stroke-width="1.6" stroke-opacity="0.75" stroke-linejoin="round" />
+  <circle cx="505" cy="165" r="3.2" fill="#e8902a" />
+  <circle cx="395" cy="150" r="3.2" fill="#e8902a" />
+  <!-- blocker -->
+  <circle cx="430" cy="199" r="6" fill="#5b6470" />
+  <line x1="430" y1="208" x2="430" y2="232" stroke="#5b6470" stroke-width="7" stroke-linecap="round" />
+  <!-- Tx -->
+  <line x1="365" y1="240" x2="365" y2="207" stroke="#1d4f8f" stroke-width="2.5" />
+  <circle cx="365" cy="204" r="4.5" fill="#1d4f8f" />
+  <path d="M357,195 a11,11 0 0 1 16,0 M352,190 a18,18 0 0 1 26,0" fill="none" stroke="#1d4f8f" stroke-width="1.5" />
+  <text x="349" y="257" font-size="11" font-weight="700" style="fill:#1d4f8f">Tx</text>
+  <!-- Rx -->
+  <rect x="489" y="232" width="11" height="18" rx="2" fill="#1c2025" />
+  <text x="505" y="250" font-size="11" font-weight="700">Rx</text>
+  <text x="435" y="302" text-anchor="middle" font-size="12.5" font-weight="700" style="fill:#1d4f8f">Neural RF ray tracing</text>
+  <text x="435" y="320" text-anchor="middle" class="rf-t">NeRF2 · RadioTwin · RIS-NeRF2 · RadioSight</text>
+  </g>
+
+  <!-- B <-> C -->
+  <line x1="593" y1="150" x2="636" y2="150" stroke="#1d4f8f" stroke-width="1.8" marker-end="url(#ai-ah-n)" />
+  <text x="615" y="128" text-anchor="middle" class="rf-m" style="fill:#1d4f8f;font-weight:600">synthetic</text>
+  <text x="615" y="141" text-anchor="middle" class="rf-m" style="fill:#1d4f8f;font-weight:600">data</text>
+  <line x1="636" y1="288" x2="593" y2="288" stroke="#2f7d5b" stroke-width="1.8" marker-end="url(#ai-ah-g)" />
+  <text x="615" y="304" text-anchor="middle" class="rf-m" style="fill:#2f7d5b;font-weight:600">real</text>
+  <text x="615" y="317" text-anchor="middle" class="rf-m" style="fill:#2f7d5b;font-weight:600">data</text>
+
+  <!-- ===== Panel C: AI-native systems ===== -->
+  <g transform="translate(20,0)">
+  <rect x="620" y="10" width="250" height="325" rx="12" fill="#eef7f1" stroke="#c3e0cf" />
+  <text x="745" y="36" text-anchor="middle" class="rf-h" style="fill:#2f7d5b">AI-native systems</text>
+  <text x="745" y="54" text-anchor="middle" class="rf-t">trained on synthetic + real data</text>
+  <rect x="634" y="68" width="222" height="92" rx="8" fill="#fff" stroke="#c3e0cf" />
+  <text x="648" y="90" class="rf-b">Networks</text>
+  <text x="648" y="110" class="rf-t">• predictive mmWave beams for XR</text>
+  <text x="648" y="128" class="rf-t">• RIS &amp; antenna configuration</text>
+  <text x="648" y="146" class="rf-t">• intent-driven experimentation</text>
+  <rect x="634" y="170" width="222" height="74" rx="8" fill="#fff" stroke="#c3e0cf" />
+  <text x="648" y="192" class="rf-b">Sensing</text>
+  <text x="648" y="212" class="rf-t">• indoor localization</text>
+  <text x="648" y="230" class="rf-t">• tracking &amp; perception</text>
+  <rect x="634" y="254" width="222" height="68" rx="8" fill="#fff" stroke="#2f7d5b" stroke-dasharray="5 3" />
+  <path d="M652,308 L662,274 L672,308 M656,296 H668" fill="none" stroke="#2f7d5b" stroke-width="2" stroke-linejoin="round" />
+  <path d="M655,270 a9,9 0 0 1 14,0 M651,265 a15,15 0 0 1 22,0" fill="none" stroke="#2f7d5b" stroke-width="1.5" />
+  <text x="686" y="283" class="rf-b">Real deployments</text>
+  <text x="686" y="301" class="rf-m">commodity radios, 28 GHz</text>
+  <text x="686" y="315" class="rf-m">phased arrays &amp; testbeds</text>
+  </g>
+</svg>
+</div>
+<figcaption>The AI-native loop. LLM agents turn an intent into a radio twin and a runnable simulation, then learn from what they observe. The twin generates synthetic data for AI-native networks and sensing, and real measurements flow back to keep it calibrated.</figcaption>
+</figure>
+
+<p>Most recently, we have put <em>LLM agents</em> into this loop. Setting up a valid wireless experiment means keeping scene geometry, radio materials, device placement, channel assumptions, and PHY settings consistent with one another, which normally takes an expert days. Our agents take a natural-language request, build the radio twin, run the simulation, and check the result for physical plausibility. Each failure is turned into a reusable skill, so the agents improve with every experiment. Because the radio twin is interactive, an agent can act within it, observe how the radio world responds, and improve from that feedback — closing the loop between simulation and reality. We are now applying the same self-evolving agent loop beyond wireless, to agents that build and refine pipelines for interpreting IoT sensing data in health and daily life.</p>
 
 <div class="thrust-works">
   <p><strong>Representative work</strong></p>
 
   <ul>
-    <li><em>Neural RF ray tracing</em> — <a href="https://xpengzhao.github.io/NeRF2/">NeRF2</a> (MobiCom’23), RadioTwin (DySPAN’25), RIS-NeRF2 (INFOCOM’25 / TMC’26)</li>
+    <li><em>Agentic network experimentation</em> — <a href="https://pervasive-intelligence-lab.github.io/agentic-sionna/">AutoNetSim</a> (ICNP’26)</li>
+    <li><em>Neural RF ray tracing</em> — <a href="https://xpengzhao.github.io/NeRF2/">NeRF2</a> (MobiCom’23), <a href="https://pervasive-intelligence-lab.github.io/radiosight/">RadioSight</a> (MobiCom’26), RadioTwin (DySPAN’25), RIS-NeRF2 (INFOCOM’25 / TMC’26)</li>
     <li><em>RL for antenna design</em> — ColiCode (MobiCom’21)</li>
   </ul>
 </div>
 
 <h2 id="intelligent-sensing-systems">Intelligent Sensing Systems</h2>
+
+<figure class="research-fig">
+<div class="fig-scroll"><svg viewBox="0 0 880 300" xmlns="http://www.w3.org/2000/svg" fill="#1c2025" role="img" aria-labelledby="se-title">
+  <title id="se-title">Sensing pipeline: everyday radio, acoustic, vibration, and vision signals from commodity devices feed physics-aware learning, which infers where people are, how they move, what happens, and what is around them.</title>
+  <defs>
+    <marker id="se-ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#8a94a3" /></marker>
+  </defs>
+
+  <!-- ===== inputs ===== -->
+  <rect x="10" y="10" width="250" height="280" rx="12" fill="#f6f8fb" stroke="#e3e6ea" />
+  <text x="135" y="36" text-anchor="middle" class="rf-h">Everyday signals</text>
+  <text x="135" y="54" text-anchor="middle" class="rf-t">from commodity devices</text>
+  <!-- radio -->
+  <circle cx="44" cy="88" r="18" fill="#1d4f8f" />
+  <line x1="44" y1="98" x2="44" y2="86" stroke="#fff" stroke-width="2" />
+  <path d="M38.5,84 a7.5,7.5 0 0 1 11,0 M35,80 a12,12 0 0 1 18,0" fill="none" stroke="#fff" stroke-width="1.6" />
+  <text x="72" y="85" class="rf-b">Radio</text>
+  <text x="72" y="101" class="rf-m">WiFi · RFID · mmWave</text>
+  <path d="M196,88 q4,-9 8,0 t8,0 t8,0 t8,0 t8,0 t8,0" fill="none" stroke="#1d4f8f" stroke-width="1.6" />
+  <!-- acoustic -->
+  <circle cx="44" cy="142" r="18" fill="#2f7d5b" />
+  <path d="M35,138 h5 l7,-6 v20 l-7,-6 h-5 z" fill="#fff" />
+  <path d="M50,138 a5,5 0 0 1 0,8" fill="none" stroke="#fff" stroke-width="1.6" />
+  <text x="72" y="139" class="rf-b">Acoustic</text>
+  <text x="72" y="155" class="rf-m">speakers · mics · earbuds</text>
+  <path d="M196,142 q6,-10 12,0 t10,0 t8,0 t6,0 t5,0 t4,0 t3,0" fill="none" stroke="#2f7d5b" stroke-width="1.6" />
+  <!-- vibration -->
+  <circle cx="44" cy="196" r="18" fill="#c0642b" />
+  <path d="M33,196 l4,-7 l5,14 l5,-14 l5,14 l4,-7" fill="none" stroke="#fff" stroke-width="2" stroke-linejoin="round" />
+  <text x="72" y="193" class="rf-b">Vibration</text>
+  <text x="72" y="209" class="rf-m">read by mmWave &amp; RFID</text>
+  <path d="M196,196 l3,-10 l4,20 l4,-16 l4,12 l4,-8 l4,5 l4,-3 l4,2 h17" fill="none" stroke="#c0642b" stroke-width="1.6" stroke-linejoin="round" />
+  <!-- vision -->
+  <circle cx="44" cy="250" r="18" fill="#5b6470" />
+  <rect x="34" y="244" width="20" height="14" rx="2.5" fill="#fff" />
+  <rect x="39" y="241" width="8" height="4" rx="1" fill="#fff" />
+  <circle cx="44" cy="251" r="4" fill="#5b6470" />
+  <text x="72" y="247" class="rf-b">Vision</text>
+  <text x="72" y="263" class="rf-m">cameras fused with RF</text>
+  <g fill="#5b6470"><rect x="198" y="242" width="9" height="9" /><rect x="209" y="249" width="9" height="9" /><rect x="220" y="242" width="9" height="9" /><rect x="231" y="249" width="9" height="9" /></g>
+
+  <!-- in -> model -->
+  <g fill="none" stroke="#b3bcc8" stroke-width="1.5">
+    <path d="M260,88 C300,88 296,138 326,145" marker-end="url(#se-ah)" />
+    <path d="M260,142 C295,142 300,148 326,149" />
+    <path d="M260,196 C295,196 300,152 326,153" />
+    <path d="M260,250 C300,250 296,162 326,157" marker-end="url(#se-ah)" />
+  </g>
+
+  <!-- ===== model ===== -->
+  <text x="440" y="56" text-anchor="middle" class="rf-t">runs on commodity hardware</text>
+  <rect x="330" y="70" width="220" height="160" rx="14" fill="#1d4f8f" />
+  <text x="440" y="99" text-anchor="middle" font-size="14" font-weight="700" fill="#fff">Physics-aware learning</text>
+  <g stroke="#fff" stroke-opacity="0.35" stroke-width="1">
+    <path d="M385,135 L440,125 M385,135 L440,148 M385,135 L440,171 M385,135 L440,194 M385,160 L440,125 M385,160 L440,148 M385,160 L440,171 M385,160 L440,194 M385,185 L440,125 M385,185 L440,148 M385,185 L440,171 M385,185 L440,194" />
+    <path d="M495,135 L440,125 M495,135 L440,148 M495,135 L440,171 M495,135 L440,194 M495,160 L440,125 M495,160 L440,148 M495,160 L440,171 M495,160 L440,194 M495,185 L440,125 M495,185 L440,148 M495,185 L440,171 M495,185 L440,194" />
+  </g>
+  <g fill="#fff">
+    <circle cx="385" cy="135" r="5" /><circle cx="385" cy="160" r="5" /><circle cx="385" cy="185" r="5" />
+    <circle cx="440" cy="125" r="5" /><circle cx="440" cy="148" r="5" /><circle cx="440" cy="171" r="5" /><circle cx="440" cy="194" r="5" />
+    <circle cx="495" cy="135" r="5" /><circle cx="495" cy="160" r="5" /><circle cx="495" cy="185" r="5" />
+  </g>
+  <text x="440" y="218" text-anchor="middle" font-size="11.5" fill="#fff" fill-opacity="0.85">signal models + deep / foundation models</text>
+
+  <!-- model -> out -->
+  <g fill="none" stroke="#b3bcc8" stroke-width="1.5">
+    <path d="M550,145 C585,140 585,88 618,88" marker-end="url(#se-ah)" />
+    <path d="M550,148 C590,148 590,142 618,142" marker-end="url(#se-ah)" />
+    <path d="M550,152 C590,152 590,196 618,196" marker-end="url(#se-ah)" />
+    <path d="M550,155 C585,160 585,250 618,250" marker-end="url(#se-ah)" />
+  </g>
+
+  <!-- ===== outputs ===== -->
+  <rect x="620" y="10" width="250" height="280" rx="12" fill="#f6f8fb" stroke="#e3e6ea" />
+  <text x="745" y="36" text-anchor="middle" class="rf-h">Understanding</text>
+  <text x="745" y="54" text-anchor="middle" class="rf-t">of people &amp; environments</text>
+  <g fill="#eaf1fa" stroke="#1d4f8f" stroke-width="1.3">
+    <circle cx="644" cy="88" r="18" /><circle cx="644" cy="142" r="18" /><circle cx="644" cy="196" r="18" /><circle cx="644" cy="250" r="18" />
+  </g>
+  <!-- pin -->
+  <path d="M644,99 C638,92 635,88 635,84 A9,9 0 0 1 653,84 C653,88 650,92 644,99 Z" fill="#1d4f8f" />
+  <circle cx="644" cy="84" r="3" fill="#fff" />
+  <!-- motion -->
+  <circle cx="650" cy="142" r="4.5" fill="#1d4f8f" />
+  <path d="M641,136 a8,8 0 0 0 0,12 M636,132 a14,14 0 0 0 0,20" fill="none" stroke="#1d4f8f" stroke-width="1.6" />
+  <!-- pulse -->
+  <path d="M632,196 h5 l3,-8 l4,16 l4,-12 l3,4 h9" fill="none" stroke="#1d4f8f" stroke-width="1.8" stroke-linejoin="round" />
+  <!-- eye -->
+  <path d="M632,250 q12,-11 24,0 q-12,11 -24,0 z" fill="none" stroke="#1d4f8f" stroke-width="1.6" />
+  <circle cx="644" cy="250" r="3.5" fill="#1d4f8f" />
+  <text x="672" y="85" class="rf-b">Where</text>
+  <text x="672" y="101" class="rf-m">indoor localization</text>
+  <text x="672" y="139" class="rf-b">How they move</text>
+  <text x="672" y="155" class="rf-m">gestures &amp; fine-grained motion</text>
+  <text x="672" y="193" class="rf-b">What happens</text>
+  <text x="672" y="209" class="rf-m">activities &amp; hidden vibrations</text>
+  <text x="672" y="247" class="rf-b">What's around</text>
+  <text x="672" y="263" class="rf-m">letting radios “see”</text>
+</svg>
+</div>
+<figcaption>Ordinary signals from commodity devices, combined with physics-aware learning, reveal where people are, how they move, what is happening, and what is around them.</figcaption>
+</figure>
 
 <p>The same physical signals that carry data also carry rich information about the world they travel through. We build sensing systems that turn ordinary signals — radio, acoustic, and vibration — into an understanding of people, their activities, and their surroundings. This includes localizing devices and people indoors, fusing radio with vision so that radios can effectively “see,” sensing fine-grained motion and gestures using the microphones and speakers already in everyday devices, and reading subtle vibrations that reveal what is happening around a sensor. The aim is perception that runs on commodity hardware, without instrumenting the environment.</p>
 
@@ -80,6 +369,89 @@
 
 <h2 id="ubiquitous-iot-network">Ubiquitous IoT Network</h2>
 
+<figure class="research-fig">
+<div class="fig-scroll"><svg viewBox="0 0 880 300" xmlns="http://www.w3.org/2000/svg" fill="#1c2025" role="img" aria-labelledby="iot-title">
+  <title id="iot-title">Ubiquitous IoT: a reader steers beams over many RFID tags; backscatter links reach into concrete, water, and the human body; cross-technology bridges let WiFi, RFID, AM radio, NFC, and cameras talk directly.</title>
+  <defs>
+    <marker id="iot-ae" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#c0642b" /></marker>
+    <marker id="iot-as" viewBox="0 0 10 10" refX="2" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M10,0 L0,5 L10,10 z" fill="#c0642b" /></marker>
+  </defs>
+
+  <!-- ===== a: efficient RFID ===== -->
+  <rect x="10" y="10" width="276" height="280" rx="12" fill="#fdf6f1" stroke="#efd0bd" />
+  <text x="148" y="36" text-anchor="middle" class="rf-h">Efficient RFID</text>
+  <text x="148" y="54" text-anchor="middle" class="rf-t">many tags, read fast and in parallel</text>
+  <polygon points="64,128 262,74 262,124" fill="#f0a77a" fill-opacity="0.35" />
+  <polygon points="64,128 262,150 262,200" fill="#f0a77a" fill-opacity="0.2" />
+  <g stroke="#c0642b" stroke-width="1">
+    <g fill="#fff">
+      <rect x="170" y="140" width="16" height="10" rx="2" /><rect x="196" y="140" width="16" height="10" rx="2" /><rect x="222" y="140" width="16" height="10" rx="2" /><rect x="248" y="140" width="16" height="10" rx="2" />
+      <rect x="170" y="160" width="16" height="10" rx="2" /><rect x="196" y="160" width="16" height="10" rx="2" /><rect x="222" y="160" width="16" height="10" rx="2" /><rect x="248" y="160" width="16" height="10" rx="2" />
+      <rect x="170" y="180" width="16" height="10" rx="2" /><rect x="196" y="180" width="16" height="10" rx="2" /><rect x="222" y="180" width="16" height="10" rx="2" /><rect x="248" y="180" width="16" height="10" rx="2" />
+    </g>
+    <g fill="#f6c8a8">
+      <rect x="170" y="80" width="16" height="10" rx="2" /><rect x="196" y="80" width="16" height="10" rx="2" /><rect x="222" y="80" width="16" height="10" rx="2" /><rect x="248" y="80" width="16" height="10" rx="2" />
+      <rect x="170" y="100" width="16" height="10" rx="2" /><rect x="196" y="100" width="16" height="10" rx="2" /><rect x="222" y="100" width="16" height="10" rx="2" /><rect x="248" y="100" width="16" height="10" rx="2" />
+      <rect x="196" y="120" width="16" height="10" rx="2" /><rect x="222" y="120" width="16" height="10" rx="2" /><rect x="248" y="120" width="16" height="10" rx="2" />
+    </g>
+  </g>
+  <rect x="38" y="138" width="40" height="30" rx="4" fill="#c0642b" />
+  <line x1="58" y1="138" x2="58" y2="128" stroke="#c0642b" stroke-width="2" />
+  <rect x="48" y="122" width="20" height="6" rx="1.5" fill="#c0642b" />
+  <text x="58" y="185" text-anchor="middle" class="rf-m">reader</text>
+  <text x="148" y="232" text-anchor="middle" class="rf-b">Spatial control &amp; smart protocols</text>
+  <text x="148" y="252" text-anchor="middle" class="rf-m">NSDI'24 · MobiCom'17 · INFOCOM'19</text>
+
+  <!-- ===== b: challenging media ===== -->
+  <rect x="302" y="10" width="276" height="280" rx="12" fill="#fdf6f1" stroke="#efd0bd" />
+  <text x="440" y="36" text-anchor="middle" class="rf-h">Into challenging media</text>
+  <text x="440" y="54" text-anchor="middle" class="rf-t">links where radios usually fail</text>
+  <!-- concrete -->
+  <path d="M344,82 a8,8 0 0 1 16,0 M339,77 a14,14 0 0 1 26,0" fill="none" stroke="#c0642b" stroke-width="1.5" />
+  <line x1="352" y1="90" x2="352" y2="150" stroke="#c0642b" stroke-width="1.3" stroke-dasharray="3 3" />
+  <rect x="318" y="110" width="68" height="90" rx="3" fill="#cfcfc9" stroke="#9a9a94" />
+  <g fill="#a9a9a2"><circle cx="328" cy="122" r="2" /><circle cx="372" cy="128" r="2.5" /><circle cx="335" cy="180" r="2.5" /><circle cx="376" cy="188" r="2" /><circle cx="326" cy="158" r="1.6" /><circle cx="364" cy="170" r="1.6" /></g>
+  <rect x="343" y="150" width="18" height="10" rx="2" fill="#fff" stroke="#c0642b" />
+  <text x="352" y="222" text-anchor="middle" class="rf-b">Concrete</text>
+  <!-- water -->
+  <rect x="428" y="80" width="24" height="10" rx="3" fill="#5b6470" />
+  <line x1="424" y1="80" x2="456" y2="80" stroke="#5b6470" stroke-width="2" />
+  <line x1="440" y1="94" x2="440" y2="167" stroke="#c0642b" stroke-width="1.3" stroke-dasharray="3 3" />
+  <rect x="406" y="130" width="68" height="70" fill="#d6e8f6" />
+  <path d="M406,130 q8.5,-6 17,0 t17,0 t17,0 t17,0" fill="none" stroke="#4a86c5" stroke-width="1.6" />
+  <circle cx="440" cy="174" r="6.5" fill="#c0642b" />
+  <text x="440" y="222" text-anchor="middle" class="rf-b">Water</text>
+  <!-- body -->
+  <circle cx="528" cy="96" r="11" fill="#ead8cb" />
+  <rect x="510" y="111" width="36" height="89" rx="14" fill="#ead8cb" />
+  <circle cx="528" cy="145" r="12" fill="none" stroke="#c0642b" stroke-opacity="0.35" />
+  <circle cx="528" cy="145" r="8" fill="none" stroke="#c0642b" stroke-opacity="0.6" />
+  <circle cx="528" cy="145" r="4.5" fill="#c0642b" />
+  <text x="528" y="222" text-anchor="middle" class="rf-b">Body</text>
+  <text x="440" y="252" text-anchor="middle" class="rf-m">MobiCom'24 · SIGCOMM'22 · INFOCOM'21</text>
+
+  <!-- ===== c: cross-technology ===== -->
+  <rect x="594" y="10" width="276" height="280" rx="12" fill="#fdf6f1" stroke="#efd0bd" />
+  <text x="732" y="36" text-anchor="middle" class="rf-h">Cross-technology bridges</text>
+  <text x="732" y="54" text-anchor="middle" class="rf-t">devices never meant to talk, talking</text>
+  <g font-size="12.5" font-weight="700" text-anchor="middle">
+    <rect x="612" y="80" width="84" height="28" rx="14" fill="#fff" stroke="#e2b89c" /><text x="654" y="98.5">WiFi</text>
+    <rect x="768" y="80" width="84" height="28" rx="14" fill="#fff" stroke="#e2b89c" /><text x="810" y="98.5">RFID</text>
+    <rect x="612" y="130" width="84" height="28" rx="14" fill="#fff" stroke="#e2b89c" /><text x="654" y="148.5">RFID</text>
+    <rect x="768" y="130" width="84" height="28" rx="14" fill="#fff" stroke="#e2b89c" /><text x="810" y="148.5">AM radio</text>
+    <rect x="612" y="180" width="84" height="28" rx="14" fill="#fff" stroke="#e2b89c" /><text x="654" y="198.5">NFC</text>
+    <rect x="768" y="180" width="84" height="28" rx="14" fill="#fff" stroke="#e2b89c" /><text x="810" y="198.5">Camera</text>
+  </g>
+  <g stroke="#c0642b" stroke-width="1.8" marker-start="url(#iot-as)" marker-end="url(#iot-ae)">
+    <line x1="702" y1="94" x2="762" y2="94" /><line x1="702" y1="144" x2="762" y2="144" /><line x1="702" y1="194" x2="762" y2="194" />
+  </g>
+  <text x="732" y="232" text-anchor="middle" class="rf-b">Direct, gateway-free links</text>
+  <text x="732" y="252" text-anchor="middle" class="rf-m">MobiCom'18 · MobiCom'21 · MobiCom'23</text>
+</svg>
+</div>
+<figcaption>Three ways we stretch off-the-shelf low-power devices: reading many tags at once, reaching into concrete, water, and the body, and letting different technologies talk directly.</figcaption>
+</figure>
+
 <p>Billions of devices are already deployed around us — RFID tags, NFC chips, backscatter radios — yet each was designed for a single narrow task. We stretch these off-the-shelf, ultra-low-power devices far beyond their original specifications, turning them into a connectivity fabric that reaches places conventional networks cannot. This work makes RFID systems faster and more scalable, pushes communication into challenging media such as concrete, water, and the human body, and lets heterogeneous technologies that were never meant to interoperate — WiFi, RFID, NFC, AM radio, and cameras — talk directly to one another. The goal is ubiquitous, near-zero-power connectivity woven invisibly into the physical world.</p>
 
 <div class="thrust-works">
@@ -93,6 +465,69 @@
 </div>
 
 <h2 id="iot-security">IoT Security</h2>
+
+<figure class="research-fig">
+<div class="fig-scroll"><svg viewBox="0 0 880 300" xmlns="http://www.w3.org/2000/svg" fill="#1c2025" role="img" aria-labelledby="sec-title">
+  <title id="sec-title">IoT security: attackers inject forged signals into a device and eavesdrop on its leakage through physical channels; defenses identify devices by hardware fingerprints and block leakage with metasurfaces, treating the physical layer as a security boundary.</title>
+  <defs>
+    <marker id="sec-ah-w" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#c0642b" /></marker>
+    <marker id="sec-ah-g" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#2f7d5b" /></marker>
+    <pattern id="sec-meta" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#d9eee2" /><rect width="5" height="5" fill="#2f7d5b" /><rect x="5" y="5" width="5" height="5" fill="#2f7d5b" />
+    </pattern>
+  </defs>
+
+  <!-- ===== offense ===== -->
+  <rect x="10" y="10" width="270" height="280" rx="12" fill="#fdf1ee" stroke="#efc4b8" />
+  <text x="145" y="36" text-anchor="middle" class="rf-h" style="fill:#a8442c">Offense</text>
+  <text x="145" y="54" text-anchor="middle" class="rf-t">find physical-layer threats first</text>
+  <circle cx="62" cy="150" r="26" fill="#c0642b" />
+  <line x1="62" y1="164" x2="62" y2="146" stroke="#fff" stroke-width="2.2" />
+  <path d="M55,142 a10,10 0 0 1 14,0 M50,137 a17,17 0 0 1 24,0" fill="none" stroke="#fff" stroke-width="1.8" />
+  <text x="62" y="194" text-anchor="middle" class="rf-b">attacker</text>
+  <line x1="92" y1="132" x2="414" y2="132" stroke="#c0642b" stroke-width="2" marker-end="url(#sec-ah-w)" />
+  <text x="180" y="124" text-anchor="middle" font-size="12" font-weight="700" style="fill:#a8442c">inject forged signals</text>
+  <line x1="414" y1="168" x2="92" y2="168" stroke="#c0642b" stroke-width="2" stroke-dasharray="6 4" marker-end="url(#sec-ah-w)" />
+  <text x="180" y="186" text-anchor="middle" font-size="12" font-weight="700" style="fill:#a8442c">eavesdrop on leakage</text>
+  <text x="145" y="236" text-anchor="middle" class="rf-m">magnetic audio injection · S&amp;P'23</text>
+  <text x="145" y="254" text-anchor="middle" class="rf-m">RF audio eavesdropping · INFOCOM'24</text>
+
+  <!-- ===== device & boundary ===== -->
+  <circle cx="440" cy="150" r="95" fill="#f4f7fb" fill-opacity="0.6" stroke="#1d4f8f" stroke-width="1.5" stroke-dasharray="6 4" />
+  <rect x="420" y="118" width="40" height="64" rx="7" fill="#1c2025" />
+  <rect x="424" y="126" width="32" height="44" rx="3" fill="#5b6470" />
+  <circle cx="440" cy="176" r="2" fill="#8a94a3" />
+  <text x="440" y="202" text-anchor="middle" class="rf-m">IoT device</text>
+  <text x="440" y="268" text-anchor="middle" font-size="11.5" font-weight="600" style="fill:#1d4f8f">physical layer as a security boundary</text>
+  <!-- leakage blocked by metasurface -->
+  <path d="M468,160 a14,14 0 0 1 0,22 M478,153 a24,24 0 0 1 0,36 M488,146 a34,34 0 0 1 0,50" fill="none" stroke="#2f7d5b" stroke-width="1.6" stroke-opacity="0.75" />
+  <rect x="546" y="140" width="22" height="66" rx="2" fill="url(#sec-meta)" stroke="#2f7d5b" />
+  <text x="557" y="224" text-anchor="middle" font-size="11" font-weight="700" style="fill:#2f7d5b">metasurface</text>
+
+  <!-- ===== defense ===== -->
+  <line x1="464" y1="106" x2="600" y2="106" stroke="#2f7d5b" stroke-width="2" />
+  <text x="528" y="98" text-anchor="middle" font-size="12" font-weight="700" style="fill:#2f7d5b">identify by hardware</text>
+  <rect x="600" y="10" width="270" height="280" rx="12" fill="#eef7f1" stroke="#c3e0cf" />
+  <line x1="600" y1="106" x2="700" y2="106" stroke="#2f7d5b" stroke-width="2" marker-end="url(#sec-ah-g)" />
+  <text x="735" y="36" text-anchor="middle" class="rf-h" style="fill:#2f7d5b">Defense</text>
+  <text x="735" y="54" text-anchor="middle" class="rf-t">protection on commodity hardware</text>
+  <!-- fingerprint -->
+  <g fill="none" stroke="#2f7d5b" stroke-width="1.8" stroke-linecap="round">
+    <path d="M722,118 a13,13 0 0 1 26,0 v6" />
+    <path d="M716,120 a19,19 0 0 1 38,0 v4" />
+    <path d="M729,128 v-10 a6,6 0 0 1 12,0 v14" />
+    <path d="M735,118 v18" />
+    <path d="M714,92 a24,24 0 0 1 42,0" />
+  </g>
+  <text x="735" y="166" text-anchor="middle" class="rf-b">Hardware fingerprinting</text>
+  <text x="735" y="183" text-anchor="middle" class="rf-m">RF-DNA (MobiCom'22) · NFC (INFOCOM'23)</text>
+  <rect x="724" y="200" width="22" height="22" rx="2" fill="url(#sec-meta)" stroke="#2f7d5b" />
+  <text x="735" y="242" text-anchor="middle" class="rf-b">Metasurface shields</text>
+  <text x="735" y="259" text-anchor="middle" class="rf-m">MetaRFence (INFOCOM'25 · TMC'26)</text>
+</svg>
+</div>
+<figcaption>We look for physical-layer attacks before adversaries do (left), and build defenses that run on commodity hardware (right).</figcaption>
+</figure>
 
 <p>Every new sensing or communication capability is also a new attack surface. We study physical-layer threats in wireless and sensing systems before adversaries do, and turn that understanding into practical defenses that run on commodity hardware. On the offensive side, we reveal how ordinary devices can be coerced into leaking information or accepting forged signals through unintended physical channels. On the defensive side, we build physical-layer fingerprinting and metasurface-based protection that authenticate devices and shield users’ privacy without requiring new hardware. Treating the physical layer as a first-class security boundary, this work aims to make pervasive wireless and IoT systems trustworthy by design.</p>
 
