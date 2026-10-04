@@ -1,0 +1,60 @@
+<svg viewBox="0 0 880 300" xmlns="http://www.w3.org/2000/svg" fill="#1c2025" role="img" aria-labelledby="ov-title">
+  <title id="ov-title">Research overview: three stacked layers (AI-native wireless and radio twins, intelligent sensing, ubiquitous IoT networks) grounded in the physical world, with IoT security spanning all layers.</title>
+  <defs>
+    <marker id="ov-ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#8a94a3"/></marker>
+  </defs>
+  <!-- layer: AI-native -->
+  <rect x="10" y="14" width="690" height="64" rx="10" fill="#eaf1fa" stroke="#c9d8ec"/>
+  <rect x="10" y="14" width="6" height="64" rx="3" fill="#1d4f8f"/>
+  <text x="30" y="41" class="rf-h">AI-Native Wireless &amp; Radio Twins</text>
+  <text x="30" y="61" class="rf-t">model · simulate · reason · act</text>
+  <g font-size="12" font-weight="600" style="fill:#1d4f8f">
+    <rect x="320" y="34" width="87" height="24" rx="12" fill="#fff" stroke="#9db8dc"/><text x="363.5" y="50" text-anchor="middle">Radio twins</text>
+    <rect x="415" y="34" width="81" height="24" rx="12" fill="#fff" stroke="#9db8dc"/><text x="455.5" y="50" text-anchor="middle">LLM agents</text>
+    <rect x="504" y="34" width="131" height="24" rx="12" fill="#fff" stroke="#9db8dc"/><text x="569.5" y="50" text-anchor="middle">Neural ray tracing</text>
+  </g>
+  <!-- gap labels -->
+  <line x1="36" y1="95" x2="36" y2="82" stroke="#8a94a3" stroke-width="1.5" marker-end="url(#ov-ah)"/>
+  <text x="46" y="92" class="rf-m">sensed data and synthetic data feed learning; learned models drive sensing and control</text>
+  <!-- layer: sensing -->
+  <rect x="10" y="98" width="690" height="64" rx="10" fill="#e6f3ec" stroke="#c3e0cf"/>
+  <rect x="10" y="98" width="6" height="64" rx="3" fill="#2f7d5b"/>
+  <text x="30" y="125" class="rf-h">Intelligent Sensing</text>
+  <text x="30" y="145" class="rf-t">perceive people, activities &amp; surroundings</text>
+  <g font-size="12" font-weight="600" style="fill:#2f7d5b">
+    <rect x="320" y="118" width="50" height="24" rx="12" fill="#fff" stroke="#a5d0b8"/><text x="345" y="134" text-anchor="middle">Radio</text>
+    <rect x="378" y="118" width="68" height="24" rx="12" fill="#fff" stroke="#a5d0b8"/><text x="412" y="134" text-anchor="middle">Acoustic</text>
+    <rect x="454" y="118" width="75" height="24" rx="12" fill="#fff" stroke="#a5d0b8"/><text x="491.5" y="134" text-anchor="middle">Vibration</text>
+    <rect x="537" y="118" width="87" height="24" rx="12" fill="#fff" stroke="#a5d0b8"/><text x="580.5" y="134" text-anchor="middle">RF + vision</text>
+  </g>
+  <line x1="36" y1="179" x2="36" y2="166" stroke="#8a94a3" stroke-width="1.5" marker-end="url(#ov-ah)"/>
+  <text x="46" y="176" class="rf-m">connectivity and raw signals from billions of low-power devices</text>
+  <!-- layer: IoT -->
+  <rect x="10" y="182" width="690" height="64" rx="10" fill="#fbeee6" stroke="#efd0bd"/>
+  <rect x="10" y="182" width="6" height="64" rx="3" fill="#c0642b"/>
+  <text x="30" y="209" class="rf-h">Ubiquitous IoT Network</text>
+  <text x="30" y="229" class="rf-t">near-zero-power connectivity everywhere</text>
+  <g font-size="12" font-weight="600" style="fill:#a8442c">
+    <rect x="320" y="202" width="106" height="24" rx="12" fill="#fff" stroke="#e8b99c"/><text x="373" y="218" text-anchor="middle">Efficient RFID</text>
+    <rect x="434" y="202" width="125" height="24" rx="12" fill="#fff" stroke="#e8b99c"/><text x="496.5" y="218" text-anchor="middle">Challenging media</text>
+    <rect x="567" y="202" width="119" height="24" rx="12" fill="#fff" stroke="#e8b99c"/><text x="626.5" y="218" text-anchor="middle">Cross-technology</text>
+  </g>
+  <!-- security column -->
+  <g stroke="#b3bcc8" stroke-dasharray="3 3">
+    <line x1="700" y1="46" x2="716" y2="46"/><line x1="700" y1="130" x2="716" y2="130"/><line x1="700" y1="214" x2="716" y2="214"/>
+  </g>
+  <rect x="716" y="14" width="154" height="232" rx="10" fill="#f1f3f6" stroke="#c9cfd8"/>
+  <text x="793" y="41" text-anchor="middle" class="rf-h">IoT Security</text>
+  <text x="793" y="60" text-anchor="middle" class="rf-t">trust across every layer</text>
+  <g font-size="12" font-weight="600" style="fill:#3d4652">
+    <rect x="733" y="76" width="120" height="24" rx="12" fill="#fff" stroke="#c9cfd8"/><text x="793" y="92" text-anchor="middle">Side channels</text>
+    <rect x="733" y="108" width="120" height="24" rx="12" fill="#fff" stroke="#c9cfd8"/><text x="793" y="124" text-anchor="middle">Fingerprinting</text>
+    <rect x="733" y="140" width="120" height="24" rx="12" fill="#fff" stroke="#c9cfd8"/><text x="793" y="156" text-anchor="middle">Metasurfaces</text>
+  </g>
+  <path d="M793,180 L815,188 V203 C815,216 805,224 793,229 C781,224 771,216 771,203 V188 Z" fill="#5b6470"/>
+  <path d="M783,204 l7,7 l13,-14" fill="none" stroke="#fff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- physical world -->
+  <line x1="36" y1="262" x2="36" y2="250" stroke="#8a94a3" stroke-width="1.5" marker-end="url(#ov-ah)"/>
+  <rect x="10" y="262" width="860" height="30" rx="8" fill="#fafbfc" stroke="#c9cfd8" stroke-dasharray="5 4"/>
+  <text x="440" y="282" text-anchor="middle" class="rf-t">Physical world — people · homes · buildings · concrete · water · the human body</text>
+</svg>

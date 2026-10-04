@@ -1,0 +1,58 @@
+<svg viewBox="0 0 880 300" xmlns="http://www.w3.org/2000/svg" fill="#1c2025" role="img" aria-labelledby="sec-title">
+  <title id="sec-title">IoT security: attackers inject forged signals into a device and eavesdrop on its leakage through physical channels; defenses identify devices by hardware fingerprints and block leakage with metasurfaces, treating the physical layer as a security boundary.</title>
+  <defs>
+    <marker id="sec-ah-w" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#c0642b"/></marker>
+    <marker id="sec-ah-g" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#2f7d5b"/></marker>
+    <pattern id="sec-meta" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#d9eee2"/><rect width="5" height="5" fill="#2f7d5b"/><rect x="5" y="5" width="5" height="5" fill="#2f7d5b"/>
+    </pattern>
+  </defs>
+
+  <!-- ===== offense ===== -->
+  <rect x="10" y="10" width="270" height="280" rx="12" fill="#fdf1ee" stroke="#efc4b8"/>
+  <text x="145" y="36" text-anchor="middle" class="rf-h" style="fill:#a8442c">Offense</text>
+  <text x="145" y="54" text-anchor="middle" class="rf-t">find physical-layer threats first</text>
+  <circle cx="62" cy="150" r="26" fill="#c0642b"/>
+  <line x1="62" y1="164" x2="62" y2="146" stroke="#fff" stroke-width="2.2"/>
+  <path d="M55,142 a10,10 0 0 1 14,0 M50,137 a17,17 0 0 1 24,0" fill="none" stroke="#fff" stroke-width="1.8"/>
+  <text x="62" y="194" text-anchor="middle" class="rf-b">attacker</text>
+  <line x1="92" y1="132" x2="414" y2="132" stroke="#c0642b" stroke-width="2" marker-end="url(#sec-ah-w)"/>
+  <text x="180" y="124" text-anchor="middle" font-size="12" font-weight="700" style="fill:#a8442c">inject forged signals</text>
+  <line x1="414" y1="168" x2="92" y2="168" stroke="#c0642b" stroke-width="2" stroke-dasharray="6 4" marker-end="url(#sec-ah-w)"/>
+  <text x="180" y="186" text-anchor="middle" font-size="12" font-weight="700" style="fill:#a8442c">eavesdrop on leakage</text>
+  <text x="145" y="236" text-anchor="middle" class="rf-m">magnetic audio injection · S&amp;P'23</text>
+  <text x="145" y="254" text-anchor="middle" class="rf-m">RF audio eavesdropping · INFOCOM'24</text>
+
+  <!-- ===== device & boundary ===== -->
+  <circle cx="440" cy="150" r="95" fill="#f4f7fb" fill-opacity="0.6" stroke="#1d4f8f" stroke-width="1.5" stroke-dasharray="6 4"/>
+  <rect x="420" y="118" width="40" height="64" rx="7" fill="#1c2025"/>
+  <rect x="424" y="126" width="32" height="44" rx="3" fill="#5b6470"/>
+  <circle cx="440" cy="176" r="2" fill="#8a94a3"/>
+  <text x="440" y="202" text-anchor="middle" class="rf-m">IoT device</text>
+  <text x="440" y="268" text-anchor="middle" font-size="11.5" font-weight="600" style="fill:#1d4f8f">physical layer as a security boundary</text>
+  <!-- leakage blocked by metasurface -->
+  <path d="M468,160 a14,14 0 0 1 0,22 M478,153 a24,24 0 0 1 0,36 M488,146 a34,34 0 0 1 0,50" fill="none" stroke="#2f7d5b" stroke-width="1.6" stroke-opacity="0.75"/>
+  <rect x="546" y="140" width="22" height="66" rx="2" fill="url(#sec-meta)" stroke="#2f7d5b"/>
+  <text x="557" y="224" text-anchor="middle" font-size="11" font-weight="700" style="fill:#2f7d5b">metasurface</text>
+
+  <!-- ===== defense ===== -->
+  <line x1="464" y1="106" x2="600" y2="106" stroke="#2f7d5b" stroke-width="2"/>
+  <text x="528" y="98" text-anchor="middle" font-size="12" font-weight="700" style="fill:#2f7d5b">identify by hardware</text>
+  <rect x="600" y="10" width="270" height="280" rx="12" fill="#eef7f1" stroke="#c3e0cf"/>
+  <line x1="600" y1="106" x2="700" y2="106" stroke="#2f7d5b" stroke-width="2" marker-end="url(#sec-ah-g)"/>
+  <text x="735" y="36" text-anchor="middle" class="rf-h" style="fill:#2f7d5b">Defense</text>
+  <text x="735" y="54" text-anchor="middle" class="rf-t">protection on commodity hardware</text>
+  <!-- fingerprint -->
+  <g fill="none" stroke="#2f7d5b" stroke-width="1.8" stroke-linecap="round">
+    <path d="M722,118 a13,13 0 0 1 26,0 v6"/>
+    <path d="M716,120 a19,19 0 0 1 38,0 v4"/>
+    <path d="M729,128 v-10 a6,6 0 0 1 12,0 v14"/>
+    <path d="M735,118 v18"/>
+    <path d="M714,92 a24,24 0 0 1 42,0"/>
+  </g>
+  <text x="735" y="166" text-anchor="middle" class="rf-b">Hardware fingerprinting</text>
+  <text x="735" y="183" text-anchor="middle" class="rf-m">RF-DNA (MobiCom'22) · NFC (INFOCOM'23)</text>
+  <rect x="724" y="200" width="22" height="22" rx="2" fill="url(#sec-meta)" stroke="#2f7d5b"/>
+  <text x="735" y="242" text-anchor="middle" class="rf-b">Metasurface shields</text>
+  <text x="735" y="259" text-anchor="middle" class="rf-m">MetaRFence (INFOCOM'25 · TMC'26)</text>
+</svg>

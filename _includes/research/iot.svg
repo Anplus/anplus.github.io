@@ -1,0 +1,78 @@
+<svg viewBox="0 0 880 300" xmlns="http://www.w3.org/2000/svg" fill="#1c2025" role="img" aria-labelledby="iot-title">
+  <title id="iot-title">Ubiquitous IoT: a reader steers beams over many RFID tags; backscatter links reach into concrete, water, and the human body; cross-technology bridges let WiFi, RFID, AM radio, NFC, and cameras talk directly.</title>
+  <defs>
+    <marker id="iot-ae" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#c0642b"/></marker>
+    <marker id="iot-as" viewBox="0 0 10 10" refX="2" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M10,0 L0,5 L10,10 z" fill="#c0642b"/></marker>
+  </defs>
+
+  <!-- ===== a: efficient RFID ===== -->
+  <rect x="10" y="10" width="276" height="280" rx="12" fill="#fdf6f1" stroke="#efd0bd"/>
+  <text x="148" y="36" text-anchor="middle" class="rf-h">Efficient RFID</text>
+  <text x="148" y="54" text-anchor="middle" class="rf-t">many tags, read fast and in parallel</text>
+  <polygon points="64,128 262,74 262,124" fill="#f0a77a" fill-opacity="0.35"/>
+  <polygon points="64,128 262,150 262,200" fill="#f0a77a" fill-opacity="0.2"/>
+  <g stroke="#c0642b" stroke-width="1">
+    <g fill="#fff">
+      <rect x="170" y="140" width="16" height="10" rx="2"/><rect x="196" y="140" width="16" height="10" rx="2"/><rect x="222" y="140" width="16" height="10" rx="2"/><rect x="248" y="140" width="16" height="10" rx="2"/>
+      <rect x="170" y="160" width="16" height="10" rx="2"/><rect x="196" y="160" width="16" height="10" rx="2"/><rect x="222" y="160" width="16" height="10" rx="2"/><rect x="248" y="160" width="16" height="10" rx="2"/>
+      <rect x="170" y="180" width="16" height="10" rx="2"/><rect x="196" y="180" width="16" height="10" rx="2"/><rect x="222" y="180" width="16" height="10" rx="2"/><rect x="248" y="180" width="16" height="10" rx="2"/>
+    </g>
+    <g fill="#f6c8a8">
+      <rect x="170" y="80" width="16" height="10" rx="2"/><rect x="196" y="80" width="16" height="10" rx="2"/><rect x="222" y="80" width="16" height="10" rx="2"/><rect x="248" y="80" width="16" height="10" rx="2"/>
+      <rect x="170" y="100" width="16" height="10" rx="2"/><rect x="196" y="100" width="16" height="10" rx="2"/><rect x="222" y="100" width="16" height="10" rx="2"/><rect x="248" y="100" width="16" height="10" rx="2"/>
+      <rect x="196" y="120" width="16" height="10" rx="2"/><rect x="222" y="120" width="16" height="10" rx="2"/><rect x="248" y="120" width="16" height="10" rx="2"/>
+    </g>
+  </g>
+  <rect x="38" y="138" width="40" height="30" rx="4" fill="#c0642b"/>
+  <line x1="58" y1="138" x2="58" y2="128" stroke="#c0642b" stroke-width="2"/>
+  <rect x="48" y="122" width="20" height="6" rx="1.5" fill="#c0642b"/>
+  <text x="58" y="185" text-anchor="middle" class="rf-m">reader</text>
+  <text x="148" y="232" text-anchor="middle" class="rf-b">Spatial control &amp; smart protocols</text>
+  <text x="148" y="252" text-anchor="middle" class="rf-m">NSDI'24 · MobiCom'17 · INFOCOM'19</text>
+
+  <!-- ===== b: challenging media ===== -->
+  <rect x="302" y="10" width="276" height="280" rx="12" fill="#fdf6f1" stroke="#efd0bd"/>
+  <text x="440" y="36" text-anchor="middle" class="rf-h">Into challenging media</text>
+  <text x="440" y="54" text-anchor="middle" class="rf-t">links where radios usually fail</text>
+  <!-- concrete -->
+  <path d="M344,82 a8,8 0 0 1 16,0 M339,77 a14,14 0 0 1 26,0" fill="none" stroke="#c0642b" stroke-width="1.5"/>
+  <line x1="352" y1="90" x2="352" y2="150" stroke="#c0642b" stroke-width="1.3" stroke-dasharray="3 3"/>
+  <rect x="318" y="110" width="68" height="90" rx="3" fill="#cfcfc9" stroke="#9a9a94"/>
+  <g fill="#a9a9a2"><circle cx="328" cy="122" r="2"/><circle cx="372" cy="128" r="2.5"/><circle cx="335" cy="180" r="2.5"/><circle cx="376" cy="188" r="2"/><circle cx="326" cy="158" r="1.6"/><circle cx="364" cy="170" r="1.6"/></g>
+  <rect x="343" y="150" width="18" height="10" rx="2" fill="#fff" stroke="#c0642b"/>
+  <text x="352" y="222" text-anchor="middle" class="rf-b">Concrete</text>
+  <!-- water -->
+  <rect x="428" y="80" width="24" height="10" rx="3" fill="#5b6470"/>
+  <line x1="424" y1="80" x2="456" y2="80" stroke="#5b6470" stroke-width="2"/>
+  <line x1="440" y1="94" x2="440" y2="167" stroke="#c0642b" stroke-width="1.3" stroke-dasharray="3 3"/>
+  <rect x="406" y="130" width="68" height="70" fill="#d6e8f6"/>
+  <path d="M406,130 q8.5,-6 17,0 t17,0 t17,0 t17,0" fill="none" stroke="#4a86c5" stroke-width="1.6"/>
+  <circle cx="440" cy="174" r="6.5" fill="#c0642b"/>
+  <text x="440" y="222" text-anchor="middle" class="rf-b">Water</text>
+  <!-- body -->
+  <circle cx="528" cy="96" r="11" fill="#ead8cb"/>
+  <rect x="510" y="111" width="36" height="89" rx="14" fill="#ead8cb"/>
+  <circle cx="528" cy="145" r="12" fill="none" stroke="#c0642b" stroke-opacity="0.35"/>
+  <circle cx="528" cy="145" r="8" fill="none" stroke="#c0642b" stroke-opacity="0.6"/>
+  <circle cx="528" cy="145" r="4.5" fill="#c0642b"/>
+  <text x="528" y="222" text-anchor="middle" class="rf-b">Body</text>
+  <text x="440" y="252" text-anchor="middle" class="rf-m">MobiCom'24 · SIGCOMM'22 · INFOCOM'21</text>
+
+  <!-- ===== c: cross-technology ===== -->
+  <rect x="594" y="10" width="276" height="280" rx="12" fill="#fdf6f1" stroke="#efd0bd"/>
+  <text x="732" y="36" text-anchor="middle" class="rf-h">Cross-technology bridges</text>
+  <text x="732" y="54" text-anchor="middle" class="rf-t">devices never meant to talk, talking</text>
+  <g font-size="12.5" font-weight="700" text-anchor="middle">
+    <rect x="612" y="80" width="84" height="28" rx="14" fill="#fff" stroke="#e2b89c"/><text x="654" y="98.5">WiFi</text>
+    <rect x="768" y="80" width="84" height="28" rx="14" fill="#fff" stroke="#e2b89c"/><text x="810" y="98.5">RFID</text>
+    <rect x="612" y="130" width="84" height="28" rx="14" fill="#fff" stroke="#e2b89c"/><text x="654" y="148.5">RFID</text>
+    <rect x="768" y="130" width="84" height="28" rx="14" fill="#fff" stroke="#e2b89c"/><text x="810" y="148.5">AM radio</text>
+    <rect x="612" y="180" width="84" height="28" rx="14" fill="#fff" stroke="#e2b89c"/><text x="654" y="198.5">NFC</text>
+    <rect x="768" y="180" width="84" height="28" rx="14" fill="#fff" stroke="#e2b89c"/><text x="810" y="198.5">Camera</text>
+  </g>
+  <g stroke="#c0642b" stroke-width="1.8" marker-start="url(#iot-as)" marker-end="url(#iot-ae)">
+    <line x1="702" y1="94" x2="762" y2="94"/><line x1="702" y1="144" x2="762" y2="144"/><line x1="702" y1="194" x2="762" y2="194"/>
+  </g>
+  <text x="732" y="232" text-anchor="middle" class="rf-b">Direct, gateway-free links</text>
+  <text x="732" y="252" text-anchor="middle" class="rf-m">MobiCom'18 · MobiCom'21 · MobiCom'23</text>
+</svg>

@@ -1,0 +1,97 @@
+<svg viewBox="0 0 880 300" xmlns="http://www.w3.org/2000/svg" fill="#1c2025" role="img" aria-labelledby="se-title">
+  <title id="se-title">Sensing pipeline: everyday radio, acoustic, vibration, and vision signals from commodity devices feed physics-aware learning, which infers where people are, how they move, what happens, and what is around them.</title>
+  <defs>
+    <marker id="se-ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#8a94a3"/></marker>
+  </defs>
+
+  <!-- ===== inputs ===== -->
+  <rect x="10" y="10" width="250" height="280" rx="12" fill="#f6f8fb" stroke="#e3e6ea"/>
+  <text x="135" y="36" text-anchor="middle" class="rf-h">Everyday signals</text>
+  <text x="135" y="54" text-anchor="middle" class="rf-t">from commodity devices</text>
+  <!-- radio -->
+  <circle cx="44" cy="88" r="18" fill="#1d4f8f"/>
+  <line x1="44" y1="98" x2="44" y2="86" stroke="#fff" stroke-width="2"/>
+  <path d="M38.5,84 a7.5,7.5 0 0 1 11,0 M35,80 a12,12 0 0 1 18,0" fill="none" stroke="#fff" stroke-width="1.6"/>
+  <text x="72" y="85" class="rf-b">Radio</text>
+  <text x="72" y="101" class="rf-m">WiFi · RFID · mmWave</text>
+  <path d="M196,88 q4,-9 8,0 t8,0 t8,0 t8,0 t8,0 t8,0" fill="none" stroke="#1d4f8f" stroke-width="1.6"/>
+  <!-- acoustic -->
+  <circle cx="44" cy="142" r="18" fill="#2f7d5b"/>
+  <path d="M35,138 h5 l7,-6 v20 l-7,-6 h-5 z" fill="#fff"/>
+  <path d="M50,138 a5,5 0 0 1 0,8" fill="none" stroke="#fff" stroke-width="1.6"/>
+  <text x="72" y="139" class="rf-b">Acoustic</text>
+  <text x="72" y="155" class="rf-m">speakers · mics · earbuds</text>
+  <path d="M196,142 q6,-10 12,0 t10,0 t8,0 t6,0 t5,0 t4,0 t3,0" fill="none" stroke="#2f7d5b" stroke-width="1.6"/>
+  <!-- vibration -->
+  <circle cx="44" cy="196" r="18" fill="#c0642b"/>
+  <path d="M33,196 l4,-7 l5,14 l5,-14 l5,14 l4,-7" fill="none" stroke="#fff" stroke-width="2" stroke-linejoin="round"/>
+  <text x="72" y="193" class="rf-b">Vibration</text>
+  <text x="72" y="209" class="rf-m">read by mmWave &amp; RFID</text>
+  <path d="M196,196 l3,-10 l4,20 l4,-16 l4,12 l4,-8 l4,5 l4,-3 l4,2 h17" fill="none" stroke="#c0642b" stroke-width="1.6" stroke-linejoin="round"/>
+  <!-- vision -->
+  <circle cx="44" cy="250" r="18" fill="#5b6470"/>
+  <rect x="34" y="244" width="20" height="14" rx="2.5" fill="#fff"/>
+  <rect x="39" y="241" width="8" height="4" rx="1" fill="#fff"/>
+  <circle cx="44" cy="251" r="4" fill="#5b6470"/>
+  <text x="72" y="247" class="rf-b">Vision</text>
+  <text x="72" y="263" class="rf-m">cameras fused with RF</text>
+  <g fill="#5b6470"><rect x="198" y="242" width="9" height="9"/><rect x="209" y="249" width="9" height="9"/><rect x="220" y="242" width="9" height="9"/><rect x="231" y="249" width="9" height="9"/></g>
+
+  <!-- in -> model -->
+  <g fill="none" stroke="#b3bcc8" stroke-width="1.5">
+    <path d="M260,88 C300,88 296,138 326,145" marker-end="url(#se-ah)"/>
+    <path d="M260,142 C295,142 300,148 326,149"/>
+    <path d="M260,196 C295,196 300,152 326,153"/>
+    <path d="M260,250 C300,250 296,162 326,157" marker-end="url(#se-ah)"/>
+  </g>
+
+  <!-- ===== model ===== -->
+  <text x="440" y="56" text-anchor="middle" class="rf-t">runs on commodity hardware</text>
+  <rect x="330" y="70" width="220" height="160" rx="14" fill="#1d4f8f"/>
+  <text x="440" y="99" text-anchor="middle" font-size="14" font-weight="700" fill="#fff">Physics-aware learning</text>
+  <g stroke="#fff" stroke-opacity="0.35" stroke-width="1">
+    <path d="M385,135 L440,125 M385,135 L440,148 M385,135 L440,171 M385,135 L440,194 M385,160 L440,125 M385,160 L440,148 M385,160 L440,171 M385,160 L440,194 M385,185 L440,125 M385,185 L440,148 M385,185 L440,171 M385,185 L440,194"/>
+    <path d="M495,135 L440,125 M495,135 L440,148 M495,135 L440,171 M495,135 L440,194 M495,160 L440,125 M495,160 L440,148 M495,160 L440,171 M495,160 L440,194 M495,185 L440,125 M495,185 L440,148 M495,185 L440,171 M495,185 L440,194"/>
+  </g>
+  <g fill="#fff">
+    <circle cx="385" cy="135" r="5"/><circle cx="385" cy="160" r="5"/><circle cx="385" cy="185" r="5"/>
+    <circle cx="440" cy="125" r="5"/><circle cx="440" cy="148" r="5"/><circle cx="440" cy="171" r="5"/><circle cx="440" cy="194" r="5"/>
+    <circle cx="495" cy="135" r="5"/><circle cx="495" cy="160" r="5"/><circle cx="495" cy="185" r="5"/>
+  </g>
+  <text x="440" y="218" text-anchor="middle" font-size="11.5" fill="#fff" fill-opacity="0.85">signal models + deep / foundation models</text>
+
+  <!-- model -> out -->
+  <g fill="none" stroke="#b3bcc8" stroke-width="1.5">
+    <path d="M550,145 C585,140 585,88 618,88" marker-end="url(#se-ah)"/>
+    <path d="M550,148 C590,148 590,142 618,142" marker-end="url(#se-ah)"/>
+    <path d="M550,152 C590,152 590,196 618,196" marker-end="url(#se-ah)"/>
+    <path d="M550,155 C585,160 585,250 618,250" marker-end="url(#se-ah)"/>
+  </g>
+
+  <!-- ===== outputs ===== -->
+  <rect x="620" y="10" width="250" height="280" rx="12" fill="#f6f8fb" stroke="#e3e6ea"/>
+  <text x="745" y="36" text-anchor="middle" class="rf-h">Understanding</text>
+  <text x="745" y="54" text-anchor="middle" class="rf-t">of people &amp; environments</text>
+  <g fill="#eaf1fa" stroke="#1d4f8f" stroke-width="1.3">
+    <circle cx="644" cy="88" r="18"/><circle cx="644" cy="142" r="18"/><circle cx="644" cy="196" r="18"/><circle cx="644" cy="250" r="18"/>
+  </g>
+  <!-- pin -->
+  <path d="M644,99 C638,92 635,88 635,84 A9,9 0 0 1 653,84 C653,88 650,92 644,99 Z" fill="#1d4f8f"/>
+  <circle cx="644" cy="84" r="3" fill="#fff"/>
+  <!-- motion -->
+  <circle cx="650" cy="142" r="4.5" fill="#1d4f8f"/>
+  <path d="M641,136 a8,8 0 0 0 0,12 M636,132 a14,14 0 0 0 0,20" fill="none" stroke="#1d4f8f" stroke-width="1.6"/>
+  <!-- pulse -->
+  <path d="M632,196 h5 l3,-8 l4,16 l4,-12 l3,4 h9" fill="none" stroke="#1d4f8f" stroke-width="1.8" stroke-linejoin="round"/>
+  <!-- eye -->
+  <path d="M632,250 q12,-11 24,0 q-12,11 -24,0 z" fill="none" stroke="#1d4f8f" stroke-width="1.6"/>
+  <circle cx="644" cy="250" r="3.5" fill="#1d4f8f"/>
+  <text x="672" y="85" class="rf-b">Where</text>
+  <text x="672" y="101" class="rf-m">indoor localization</text>
+  <text x="672" y="139" class="rf-b">How they move</text>
+  <text x="672" y="155" class="rf-m">gestures &amp; fine-grained motion</text>
+  <text x="672" y="193" class="rf-b">What happens</text>
+  <text x="672" y="209" class="rf-m">activities &amp; hidden vibrations</text>
+  <text x="672" y="247" class="rf-b">What's around</text>
+  <text x="672" y="263" class="rf-m">letting radios “see”</text>
+</svg>

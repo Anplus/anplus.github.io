@@ -239,6 +239,26 @@ a.chip:hover { background: var(--accent); color: #fff; text-decoration: none; }
   text-align: center;
 }
 
+/* --- research figures (inline SVGs in _includes/research/) ------------------ */
+.research-fig { margin: 1.1rem 0 1.3rem; }
+.research-fig .fig-scroll { overflow-x: auto; }
+.research-fig svg {
+  display: block;
+  width: 100%;
+  min-width: 620px;           /* below this, the figure scrolls instead of shrinking */
+  height: auto;
+}
+.research-fig figcaption {
+  margin-top: 0.45rem;
+  font-size: 0.86rem;
+  color: var(--ink-light);
+  text-align: center;
+}
+.research-fig .rf-h { font-size: 15px; font-weight: 700; }
+.research-fig .rf-b { font-size: 12.5px; font-weight: 700; }
+.research-fig .rf-t { font-size: 11.5px; fill: var(--ink-light); }
+.research-fig .rf-m { font-size: 11px; fill: var(--ink-light); }
+
 /* --- research thrust works -------------------------------------------------- */
 .thrust-works {
   margin: 0.9rem 0 1.6rem;
